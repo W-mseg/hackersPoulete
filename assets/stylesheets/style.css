@@ -5,18 +5,15 @@
   font-style: normal;
 }
 /*Charte graphique*/
-<<<<<<< HEAD
 header {
   font-family: 'bellotaregular';
 }
 
 /*NavBar*/
-=======
-/* line 17, ../sass/style.scss */
->>>>>>> c91c4b84614c99dfb96c33f575e67d5889b8c5dc
 .navbar {
   background-color: #15c5bd;
 }
+
 /* line 19, ../sass/style.scss */
 .navbar .navbar-brand {
   color: #ffffff;
