@@ -1,3 +1,4 @@
+<?php require ('functions.php');?>
 <!doctype html>
 <html lang="be_fr">
 <head>
@@ -66,7 +67,6 @@
         </p>
     </div>
     </header>
-
     <main>
 
         <!-- Card -->
@@ -125,11 +125,11 @@
             </div>
         </div>
     </div>
+
+    <?php require ('formulaire.php');?>
         
     </main>
-
     <!-- Footer -->
-
     <footer>
 
     </footer>
