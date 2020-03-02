@@ -1,16 +1,20 @@
 @font-face {
-    font-family: 'Bellota';
-    src:url('assets/web_fonts/bellota_regular_macroman/Bellota-Regular-webfont.woff') format('woff');
+  font-family: 'bellotaregular';
+  src: url('assets/web_fonts/bellota_regular_macroman/Bellota-Regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 /*Charte graphique*/
 $blue:#15c5bd;
 $white:#FFF;
 $black:#303030;
-$bellota: 'Bellota';
 
+header {
+  font-family: 'bellotaregular';
+}
 
-
+/*NavBar*/
 $bgDefault      : #15c5bd;
 $bgHighlight    : #15c5bd;
 $colDefault     : #ffffff;
@@ -108,3 +112,5 @@ $dropDown       : false;
   .dropdown-item.active {
     color: $colHighlight;
     background-color: $bgHighlight; }}
+
+
