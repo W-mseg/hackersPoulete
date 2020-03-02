@@ -10,7 +10,7 @@
         <option value="Femme">Femme</option>
     </select>
 
-    <select name="subject" id="option" form="2">
+    <select name="subject" id="option" form="1">
         <option value="SAV">Service Après Vente</option>
         <option value="Achats">Achats</option>
         <option value="Autres">Autres</option>

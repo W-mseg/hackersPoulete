@@ -1,7 +1,7 @@
 <?php
-$fileex = file_get_contents('raspberys.json');
-$toast = json_decode($fileex,true);
-var_dump($toast[1]['name']);
+$contentget = file_get_contents('raspberys.json');
+$decodearray = json_decode($contentget,true);
+var_dump($decodearray[4]['video']);
 function emptying($postvar){
     if (empty($_POST[$postvar])){}
     else{
