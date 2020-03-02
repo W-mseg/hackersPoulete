@@ -1,4 +1,4 @@
-<form action="" method="post">
+<form "<?= actionform()?>" method="post">
 
 <input type="text" name="name" value="<?= emptying('name') ?>" placeholder="prénom*">
     <input type="text" name="lastname" value="<?= emptying('lastname') ?>" placeholder="nom*">
@@ -6,8 +6,8 @@
     <br>
 
     <select name="gender" id="genre">
-        <option value="Homme">Homme</option>
-        <option value="Femme">Femme</option>
+        <option value="Homme" <?= selected('Homme') ?>>Homme</option>
+        <option value="Femme" <?= selected("Femme") ?>>Femme</option>
     </select>
 
     <select name="subject" id="option">

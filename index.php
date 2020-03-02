@@ -56,7 +56,9 @@
     </header>
     <main>
 
-        <?php require ('formulaire.php');?>
+        <p><?= actionform() ?></p>
+        <?php
+        require ('formulaire.php');?>
     </main>
     <!-- Footer -->
     <footer>
