@@ -1,9 +1,21 @@
 <?php
 $contentget = file_get_contents('raspberys.json');
 $decodearray = json_decode($contentget,true);
-var_dump($decodearray[4]['video']);
+var_dump($_POST);
 function emptying($postvar){
-    if (empty($_POST[$postvar])){}
+    if (!empty($_POST[$postvar]) && (isset($_POST[$postvar]))){
+        return htmlspecialchars($_POST[$postvar]);
+    }
     else{
-        return $_POST[$postvar];}
+
+    }
+}
+
+function selected($selector){
+    if( isset($_POST['subject']) && !empty($_POST['subject']) && ($_POST['subject']) === ($selector)){
+return 'selected={\'selected\'';
+    }
+    else{
+
+    }
 }
