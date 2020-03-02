@@ -1,4 +1,5 @@
-<form method="post" <?php echo "action ='./index.php'" ?>>
+<p><?= actionform() ?></p>
+<form method="post" action ='./index.php'>
 
 <input type="text" name="name" value="<?= emptying('postname') ?>" placeholder="prénom*">
     <input type="text" name="lastname" value="<?= emptying('postlastname') ?>" placeholder="nom*">

@@ -3,8 +3,20 @@ $contentget = file_get_contents('raspberys.json');
 $decodearray = json_decode($contentget,true);
 
 //sanitizing
+//setting all undefined var to null for initialisation
+setter('gender');
+setter('subject');
+setter('name');
+setter('lastname');
+setter('e-mail');
 
-//gender sanitization
+function setter($setting){
+    if(!isset($_POST[$setting])){
+        $_POST[$setting] = null;
+    }
+}
+
+//gender Validation
 $postgender = $_POST['gender'];
 function gendervalide($selector){
     if(($GLOBALS['postgender'] === "Homme" || $GLOBALS['postgender'] === "Femme") && $GLOBALS['postgender'] === $selector){
@@ -14,7 +26,7 @@ function gendervalide($selector){
     }
 }
 
-
+// subject validation
 $postsubject = $_POST['subject'];
 function subjectvalide($selector){
     if(($GLOBALS['postsubject'] === "SAV" ||$GLOBALS['postsubject'] === "Achats" || $GLOBALS['postsubject'] === "Autres") && $GLOBALS['postsubject'] === $selector){
@@ -26,42 +38,32 @@ function subjectvalide($selector){
 }
 
 
-$postname = filter_var($_REQUEST['name'], FILTER_SANITIZE_STRING) ;
-$postlastname = filter_var($_REQUEST['lastname'], FILTER_SANITIZE_STRING) ;
+$postname = filter_var($_POST['name'], FILTER_SANITIZE_STRING) ;
+$postlastname = filter_var($_POST['lastname'], FILTER_SANITIZE_STRING) ;
 
-$postemail = filter_var($_REQUEST['e-mail'], FILTER_SANITIZE_EMAIL);
-
+$postemail = filter_var($_POST['e-mail'], FILTER_SANITIZE_EMAIL);
 $validemail = filter_var($postemail, FILTER_VALIDATE_EMAIL);
 
-function dumpage(){
-    if($GLOBALS['validemail'] == true){
-    return $GLOBALS['postemail'];
-    }
-    else{
-        return "NTM";
-    }
+function dumpage($lol){
+var_dump($lol);
 }
 //returning validinfos minus gender
 function emptying($postvar){
 return $GLOBALS[$postvar];
 }
 
-//return validinfos only gender
-
-
 function actionform()
 {
-    if(isset($_POST['e-mail'])){
-    $email = $_POST['e-mail'];
-    }else{
-        $email = null;
+    if($GLOBALS['validemail'] == true && !empty($GLOBALS['postname']) && !empty($GLOBALS['postlastname'])){
+        return "Votre formulaire a bien été validé";
+    }
+    elseif($GLOBALS['validemail'] == false || empty($GLOBALS['postname']) || empty($GLOBALS['postlastname'])){
+        return "Formulaire invalide";
+    }
+    elseif(empty($GLOBALS['postemail']) && empty($GLOBALS['postname']) && empty($GLOBALS['postlastname'])){
+        return "Veuillez remplir le formulaire";
     }
 
-    $email = filter_var($email, FILTER_SANITIZE_EMAIL);
-    if (isset($_POST['lastname']) && (strlen($_POST['lastname']) >= 1) && strlen($_POST['name']) >= 1 && isset($_POST['name']) && (isset($_POST['e-mail'])) && (strlen($_POST['e-mail']) >= 1) && filter_var($email, FILTER_VALIDATE_EMAIL))
-    {
-        return "./Confirmation.php";
-    }
 }
 
 
