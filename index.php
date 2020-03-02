@@ -8,6 +8,7 @@
     <title>HackersPoulette</title>
 </head>
 <body>
-
+<h1>test</h1>
+<?php require('formulaire.php');?>
 </body>
 </html>
