@@ -1,12 +1,19 @@
 @font-face {
-  font-family: 'Bellota';
+  font-family: 'bellotaregular';
   src: url("assets/web_fonts/bellota_regular_macroman/Bellota-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 /*Charte graphique*/
-/* line 17, ../sass/style.scss */
+header {
+  font-family: 'bellotaregular';
+}
+
+/*NavBar*/
 .navbar {
   background-color: #15c5bd;
 }
+
 /* line 19, ../sass/style.scss */
 .navbar .navbar-brand {
   color: #ffffff;
