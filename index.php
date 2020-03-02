@@ -66,13 +66,11 @@
         </p>
     </div>
     </header>
-
     <main>
 
+        <?php require ('formulaire.php');?>
     </main>
-
     <!-- Footer -->
-
     <footer>
 
     </footer>
