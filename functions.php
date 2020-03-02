@@ -4,17 +4,26 @@ $decodearray = json_decode($contentget,true);
 
 //sanitizing
 
+//gender sanitization
 $postgender = $_POST['gender'];
-
-function gendervalide(){
-    if($GLOBALS['postgender'] === "Homme" || $GLOBALS['postgender'] === "Femme"){
-
+function gendervalide($selector){
+    if(($GLOBALS['postgender'] === "Homme" || $GLOBALS['postgender'] === "Femme") && $GLOBALS['postgender'] === $selector){
+        return 'selected={\'selected\'';
     }else{
-        $GLOBALS['postgender'] = null;
+        $GLOBALS['postgender'] = 'Homme';
     }
 }
 
+
 $postsubject = $_POST['subject'];
+function subjectvalide($selector){
+    if(($GLOBALS['postsubject'] === "SAV" ||$GLOBALS['postsubject'] === "Achats" || $GLOBALS['postsubject'] === "Autres") && $GLOBALS['postsubject'] === $selector){
+        return 'selected={\'selected\'';
+    }
+    else{
+        $GLOBALS['postsubject'] = "SAV";
+    }
+}
 
 
 $postname = filter_var($_REQUEST['name'], FILTER_SANITIZE_STRING) ;
@@ -32,25 +41,13 @@ function dumpage(){
         return "NTM";
     }
 }
-
-
+//returning validinfos minus gender
 function emptying($postvar){
-    if (isset($_POST[$postvar])){
-        return htmlspecialchars($_POST[$postvar]);
-    }
-    else{
-
-    }
+return $GLOBALS[$postvar];
 }
 
-function selected($selector){
-    if( isset($_POST['subject']) && !empty($_POST['subject']) && ($_POST['subject']) === ($selector)){
-    return 'selected={\'selected\'';}
-    elseif(isset($_POST['gender']) && (!empty($_POST['gender'])) && ($_POST['gender']) === ($selector)){
-        return 'selected={\'selected\'';
-    }
-    else{}
-}
+//return validinfos only gender
+
 
 function actionform()
 {
