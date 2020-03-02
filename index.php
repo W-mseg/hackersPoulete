@@ -1,3 +1,7 @@
+<?php
+$test = file_get_contents('raspberys.json');
+var_dump(json_decode($test));
+?>
 <!doctype html>
 <html lang="be_fr">
 <head>
