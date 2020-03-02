@@ -1,3 +1,10 @@
-body{
-
+@font-face {
+    font-family: 'Bellota';
+    src:url('assets/web_fonts/bellota_regular_macroman/Bellota-Regular-webfont.woff') format('woff');
 }
+
+/*Charte graphique*/
+$blue:#15c5bd;
+$white:#FFF;
+$black:#303030;
+$bellota: 'Bellota';
