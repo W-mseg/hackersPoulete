@@ -16,7 +16,6 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">
-                <img src="assets/hackers-poulette-logo.png" width="60" height="60" alt="">
                 Hackers Poulette
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,7 +51,25 @@
             </form>
         </div>
     </nav>
+
+    <div class="jumbotron">
+        <h1 class="display-3">
+        </h1>
+        <div class="text-center">
+        <img src="assets/hackers-poulette-logo.png"alt="">
+        </div>
+        <p class="lead">Jumbo helper text</p>
+        <hr class="my-2">
+        <p>More info</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
+        </p>
+    </div>
     </header>
+
+    <main>
+
+    </main>
 
     <!-- Footer -->
 
