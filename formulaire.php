@@ -1,4 +1,4 @@
-<form "<?= actionform()?>" method="post">
+<form method="post" <?php echo "action ='./Confirmation.php'" ?>>
 
 <input type="text" name="name" value="<?= emptying('name') ?>" placeholder="prénom*">
     <input type="text" name="lastname" value="<?= emptying('lastname') ?>" placeholder="nom*">
