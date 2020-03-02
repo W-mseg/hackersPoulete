@@ -69,10 +69,10 @@
     </header>
     <main>
 
-        <!-- Card -->
+        <!-- Cards -->
 
         <div class="card-deck">
-            <div class="card">
+            <div class="card" data-toggle="modal" data-target="#Modal1">
                 <img class="card-img-top" src="assets/hackers-poulette-logo.png" alt="Card image cap">
                 <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -82,7 +82,7 @@
                 <small class="text-muted">Last updated 3 mins ago</small>
             </div>
             </div>
-            <div class="card">
+            <div class="card" data-toggle="modal" data-target="#Modal2">
                 <img class="card-img-top" src="assets/hackers-poulette-logo.png" alt="Card image cap">
                 <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -93,8 +93,21 @@
             </div>
             </div>
 
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="card" data-toggle="modal" data-target="#Modal3">
+                <img class="card-img-top" src="assets/hackers-poulette-logo.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </div>
+    </div>
+
+
+        <!-- Modals -->
+        <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -114,17 +127,45 @@
             </div>
         </div>
 
-            <div class="card">
-                <img class="card-img-top" src="assets/hackers-poulette-logo.png" alt="Card image cap">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                ...
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
             </div>
-            <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
             </div>
         </div>
-    </div>
+
+        <div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                ...
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+            </div>
+        </div>
 
     <?php require ('formulaire.php');?>
         
