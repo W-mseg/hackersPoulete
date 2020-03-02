@@ -69,38 +69,45 @@
     </header>
     <main>
 
+        <?php
+
+        $contentget = file_get_contents('raspberys.json');
+        $decodearray = json_decode($contentget,true);
+
+        ?>
+
         <!-- Cards -->
 
         <div class="card-deck">
             <div class="card" data-toggle="modal" data-target="#Modal1">
-                <img class="card-img-top" src="assets/hackers-poulette-logo.png" alt="Card image cap">
+                <img class="card-img-top" src=<?= $decodearray[0]['image'];?> alt="Card image cap">
                 <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title"><?= $decodearray[0]['name'];?></h5>
+                <p class="card-text"><?= $decodearray[0]['description'];?></p>
             </div>
             <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <small class="text-muted"><?= $decodearray[0]['prix'];?></small>
             </div>
             </div>
             <div class="card" data-toggle="modal" data-target="#Modal2">
-                <img class="card-img-top" src="assets/hackers-poulette-logo.png" alt="Card image cap">
+                <img class="card-img-top" src=<?= $decodearray[1]['image'];?> alt="Card image cap">
                 <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <h5 class="card-title"><?= $decodearray[1]['name'];?></h5>
+                <p class="card-text"><?= $decodearray[1]['description'];?></p>
             </div>
             <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <small class="text-muted"><?= $decodearray[1]['prix'];?></small>
             </div>
             </div>
 
             <div class="card" data-toggle="modal" data-target="#Modal3">
-                <img class="card-img-top" src="assets/hackers-poulette-logo.png" alt="Card image cap">
+                <img class="card-img-top" src=<?= $decodearray[2]['image'];?> alt="Card image cap">
                 <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <h5 class="card-title"><?= $decodearray[2]['name'];?></h5>
+                <p class="card-text"><?= $decodearray[2]['description'];?></p>
             </div>
             <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <small class="text-muted"><?= $decodearray[2]['prix'];?></small>
             </div>
         </div>
     </div>
@@ -117,7 +124,6 @@
                 </button>
                 </div>
                 <div class="modal-body">
-                ...
                 </div>
                 <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
