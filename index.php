@@ -69,13 +69,6 @@
     </header>
     <main>
 
-        <?php
-
-        $contentget = file_get_contents('raspberys.json');
-        $decodearray = json_decode($contentget,true);
-
-        ?>
-
         <!-- Cards -->
 
         <div class="card-deck">
