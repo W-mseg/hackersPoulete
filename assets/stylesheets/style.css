@@ -14,6 +14,10 @@ header, main {
   background-color: #303030;
 }
 
+#more {
+  display: none;
+}
+
 /*NavBar*/
 .navbar {
   background-color: #15c5bd;

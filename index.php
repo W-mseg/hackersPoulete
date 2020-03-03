@@ -75,15 +75,14 @@
         $decodearray = json_decode($contentget,true);
 
         ?>
-        
+
     <section id="produits" class="pb-5">
 
         <h2 class="text-center pb-3 pt-3 text-white">Nos produits</h2>
 
         <!-- Cards -->
-
         <div class="card-deck">
-            <div class="card" data-toggle="modal" data-target="#Modal1">
+            <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal1">
                 <img class="card-img-top" src=<?= $decodearray[0]['image'];?> alt="Card image cap">
                 <div class="card-body">
                 <h5 class="card-title"><?= $decodearray[0]['name'];?></h5>
@@ -93,7 +92,7 @@
                 <small class="text-muted"><?= $decodearray[0]['prix'];?></small>
             </div>
             </div>
-            <div class="card" data-toggle="modal" data-target="#Modal2">
+            <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal2">
                 <img class="card-img-top" src=<?= $decodearray[1]['image'];?> alt="Card image cap">
                 <div class="card-body">
                 <h5 class="card-title"><?= $decodearray[1]['name'];?></h5>
@@ -104,7 +103,7 @@
             </div>
             </div>
 
-            <div class="card" data-toggle="modal" data-target="#Modal3">
+            <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal3">
                 <img class="card-img-top" src=<?= $decodearray[2]['image'];?> alt="Card image cap">
                 <div class="card-body">
                 <h5 class="card-title"><?= $decodearray[2]['name'];?></h5>
@@ -116,7 +115,44 @@
         </div>
     </div>
 
+        <div id="more" class="card-deck">
+        <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal1">
+            <img class="card-img-top" src=<?= $decodearray[0]['image'];?> alt="Card image cap">
+            <div class="card-body">
+            <h5 class="card-title"><?= $decodearray[0]['name'];?></h5>
+            <p class="card-text"><?= $decodearray[0]['description'];?></p>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted"><?= $decodearray[0]['prix'];?></small>
+        </div>
+        </div>
+        <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal2">
+            <img class="card-img-top" src=<?= $decodearray[1]['image'];?> alt="Card image cap">
+            <div class="card-body">
+            <h5 class="card-title"><?= $decodearray[1]['name'];?></h5>
+            <p class="card-text"><?= $decodearray[1]['description'];?></p>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted"><?= $decodearray[1]['prix'];?></small>
+        </div>
+        </div>
+
+        <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal3">
+            <img class="card-img-top" src=<?= $decodearray[2]['image'];?> alt="Card image cap">
+            <div class="card-body">
+            <h5 class="card-title"><?= $decodearray[2]['name'];?></h5>
+            <p class="card-text"><?= $decodearray[2]['description'];?></p>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted"><?= $decodearray[2]['prix'];?></small>
+        </div>
+    </div>
+</div>
     </section>
+
+    <div class="row justify-content-center">
+        <button id="myBtn" onclick="seeMore()">Voir plus</button>
+    </div>
 
         <!-- Modals -->
         <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -187,6 +223,7 @@
 
     </footer>
 
+    <script src="seemore.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

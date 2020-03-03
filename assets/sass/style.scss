@@ -18,6 +18,10 @@ header, main{
   background-color: $black;
 }
 
+#more {
+  display: none;
+}
+
 /*NavBar*/
 $bgDefault      : #15c5bd;
 $bgHighlight    : #15c5bd;
