@@ -241,8 +241,13 @@
             </div>
         </div>
 
-    <?php require ('formulaire.php');?>
-        
+    <?php require ('formulaire.php'); ?>
+        <pre>
+            <?php
+            print_r($GLOBALS['postname']." ".$GLOBALS['postlastname']." ".$GLOBALS['postemail']." ".$GLOBALS['postgender']." ".$GLOBALS['postsubject']);
+            echo " ".actionform()
+            ?>
+        </pre>
 
     </main>
 
