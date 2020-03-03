@@ -197,4 +197,13 @@ header, main, footer {
 #more {
   display: none;
 }
+
+footer {
+  background-color: #303030;
+  color: #FFF;
+}
+
+footer h5 {
+  font-weight: bold;
+}
 /*# sourceMappingURL=style.css.map */

@@ -170,3 +170,12 @@ $dropDown       : false;
 #more {
   display: none;
 }
+
+footer{
+  background-color: $black;
+  color: $white;
+
+  h5{
+    font-weight: bold;
+  }
+}
