@@ -68,6 +68,8 @@
     </div>
     </header>
     <main>
+        
+        <h2 class="text-center">Nos produits</h2>
 
         <!-- Cards -->
 
