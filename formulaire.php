@@ -1,19 +1,20 @@
-<form action="" method="post">
+<p><?= actionform() ?></p>
+<form method="post" action ='./index.php'>
 
-<input type="text" name="name" placeholder="prénom*">
-    <input type="text" name="lastname" value="<?= emptying('lastname') ?>" placeholder="nom*">
-    <input type="text" name="e-mail" placeholder="e-mail*">
+<input type="text" name="name" value="<?= emptying('postname') ?>" placeholder="prénom*">
+    <input type="text" name="lastname" value="<?= emptying('postlastname') ?>" placeholder="nom*">
+    <input type="text" name="e-mail" value="<?= emptying('postemail') ?>" placeholder="e-mail*">
     <br>
 
     <select name="gender" id="genre">
-        <option value="Homme">Homme</option>
-        <option value="Femme">Femme</option>
+        <option value="Homme" <?= gendervalide('Homme') ?>>Homme</option>
+        <option value="Femme" <?= gendervalide("Femme") ?>>Femme</option>
     </select>
 
-    <select name="subject" id="option" form="1">
-        <option value="SAV">Service Après Vente</option>
-        <option value="Achats">Achats</option>
-        <option value="Autres">Autres</option>
+    <select name="subject" id="option">
+        <option value="SAV" <?= subjectvalide('SAV') ?>>Service Après Vente</option>
+        <option value="Achats" <?= subjectvalide('Achats') ?>>Achats</option>
+        <option value="Autres" <?= subjectvalide('Autres') ?>>Autres</option>
     </select>
 
     <br>
