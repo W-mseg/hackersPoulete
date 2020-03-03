@@ -183,16 +183,15 @@ header, main, footer {
 #myBtn {
   border-radius: 5px;
   background-color: #303030;
-  border-color: #FFF;
+  border: 2px solid #FFF;
   color: white;
   font-weight: bold;
+  height: 50px;
+  width: 105px;
 }
 
 #myBtn:hover {
   background-color: #15c5bd;
-  border: none;
-  height: 50px;
-  width: 100px;
 }
 
 #more {
