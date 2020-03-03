@@ -53,14 +53,17 @@ function subjectvalide($selector){
 
 function actionform()
 {
-    if($GLOBALS['validemail'] == true && !empty($GLOBALS['postname']) && !empty($GLOBALS['postlastname'])){
+    if($GLOBALS['validemail'] == true && !empty($GLOBALS['postname']) && !empty($GLOBALS['postlastname']) && empty($_POST['pays']) && empty($_POST['country'])){
         return "Votre formulaire a bien été validé";
     }
-    elseif($GLOBALS['validemail'] == false || empty($GLOBALS['postname']) || empty($GLOBALS['postlastname'])){
+    elseif($GLOBALS['validemail'] == false || empty($GLOBALS['postname']) || empty($GLOBALS['postlastname'])&& !empty($_POST['pays']) || !empty($_POST['country'])){
         return "Formulaire invalide";
     }
-    elseif(empty($GLOBALS['postemail']) && empty($GLOBALS['postname']) && empty($GLOBALS['postlastname'])){
+    elseif(empty($GLOBALS['postemail']) && empty($GLOBALS['postname']) && empty($GLOBALS['postlastname']) && empty($_POST['pays']) && empty($_POST['country'])){
         return "Veuillez remplir le formulaire";
+    }
+    else{
+        return "Formulaire invalide";
     }
 
 }
