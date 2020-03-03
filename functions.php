@@ -17,23 +17,22 @@ function setter($setting){
 }
 
 //gender Validation
+
 $postgender = $_POST['gender'];
 function gendervalide($selector){
-    if(($GLOBALS['postgender'] === "Homme" || $GLOBALS['postgender'] === "Femme") && $GLOBALS['postgender'] === $selector){
-        return 'selected={\'selected\'';
-    }else{
-        $GLOBALS['postgender'] = 'Homme';
+    if($selector === $GLOBALS['postgender'] && $selector === "Femme"){
+    return 'selected=\'selected\'';
+    }
+    elseif($selector === $GLOBALS['postgender'] && $selector === "Homme"){
+        return 'selected=\'selected\'';
     }
 }
 
 // subject validation
 $postsubject = $_POST['subject'];
 function subjectvalide($selector){
-    if(($GLOBALS['postsubject'] === "SAV" ||$GLOBALS['postsubject'] === "Achats" || $GLOBALS['postsubject'] === "Autres") && $GLOBALS['postsubject'] === $selector){
-        return 'selected={\'selected\'';
-    }
-    else{
-        $GLOBALS['postsubject'] = "SAV";
+    if(($selector === $GLOBALS['postsubject']) && ($selector === "SAV" || $selector === "Achats" || $selector === "Autres")){
+        return 'selected=\'selected\'';
     }
 }
 
