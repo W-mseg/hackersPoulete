@@ -3,12 +3,24 @@ $contentget = file_get_contents('raspberys.json');
 $decodearray = json_decode($contentget,true);
 
 //sanitizing
+
+//returning validinfos minus gender
+function emptying($postvar){
+    return $GLOBALS[$postvar];
+}
 //setting all undefined var to null for initialisation
 setter('gender');
 setter('subject');
 setter('name');
 setter('lastname');
 setter('e-mail');
+
+//filter all var
+$postname = filter_var($_POST['name'], FILTER_SANITIZE_STRING) ;
+$postlastname = filter_var($_POST['lastname'], FILTER_SANITIZE_STRING) ;
+
+$postemail = filter_var($_POST['e-mail'], FILTER_SANITIZE_EMAIL);
+$validemail = filter_var($postemail, FILTER_VALIDATE_EMAIL);
 
 function setter($setting){
     if(!isset($_POST[$setting])){
@@ -37,17 +49,7 @@ function subjectvalide($selector){
 }
 
 
-$postname = filter_var($_POST['name'], FILTER_SANITIZE_STRING) ;
-$postlastname = filter_var($_POST['lastname'], FILTER_SANITIZE_STRING) ;
 
-$postemail = filter_var($_POST['e-mail'], FILTER_SANITIZE_EMAIL);
-$validemail = filter_var($postemail, FILTER_VALIDATE_EMAIL);
-
-
-//returning validinfos minus gender
-function emptying($postvar){
-return $GLOBALS[$postvar];
-}
 
 function actionform()
 {
