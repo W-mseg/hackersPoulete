@@ -44,9 +44,7 @@ $postlastname = filter_var($_POST['lastname'], FILTER_SANITIZE_STRING) ;
 $postemail = filter_var($_POST['e-mail'], FILTER_SANITIZE_EMAIL);
 $validemail = filter_var($postemail, FILTER_VALIDATE_EMAIL);
 
-function dumpage($lol){
-var_dump($lol);
-}
+
 //returning validinfos minus gender
 function emptying($postvar){
 return $GLOBALS[$postvar];
