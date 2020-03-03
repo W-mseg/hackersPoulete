@@ -29,7 +29,7 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#produits">Produits</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -53,28 +53,26 @@
         </div>
     </nav>
 
-    <div class="jumbotron">
-        <h1 class="display-3">
-        </h1>
-        <div class="text-center">
-        <img src="assets/hackers-poulette-logo.png" alt="">
+        <div class=jumbotron>
+            <div class=container>
+                <h1>Titre</h1>
+                <p>Contenu du jumbotron</p>
+            </div>
         </div>
-        <p class="lead">Jumbo helper text</p>
-        <hr class="my-2">
-        <p>More info</p>
-        <p class="lead">
-            <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
-        </p>
-    </div>
+        
+        <div class="fond"></div>
+
     </header>
+
     <main>
         
-        <h2 class="text-center">Nos produits</h2>
+        <section id="produits" class="pb-5">
 
+        <h2 class="text-center pb-3 pt-3 text-white">Nos produits</h2>
+        
         <!-- Cards -->
-
         <div class="card-deck">
-            <div class="card" data-toggle="modal" data-target="#Modal1">
+            <div class="card col-12 col-md-6 col-lg-4" data-toggle="modal" data-target="#Modal1">
                 <img class="card-img-top" src=<?= $decodearray[0]['image'];?> alt="Card image cap">
                 <div class="card-body">
                 <h5 class="card-title"><?= $decodearray[0]['name'];?></h5>
@@ -84,7 +82,7 @@
                 <small class="text-muted"><?= $decodearray[0]['prix'];?></small>
             </div>
             </div>
-            <div class="card" data-toggle="modal" data-target="#Modal2">
+            <div class="card col-12 col-md-6 col-lg-4" data-toggle="modal" data-target="#Modal2">
                 <img class="card-img-top" src=<?= $decodearray[1]['image'];?> alt="Card image cap">
                 <div class="card-body">
                 <h5 class="card-title"><?= $decodearray[1]['name'];?></h5>
@@ -95,7 +93,7 @@
             </div>
             </div>
 
-            <div class="card" data-toggle="modal" data-target="#Modal3">
+            <div class="card col-12 col-md-6 col-lg-4" data-toggle="modal" data-target="#Modal3">
                 <img class="card-img-top" src=<?= $decodearray[2]['image'];?> alt="Card image cap">
                 <div class="card-body">
                 <h5 class="card-title"><?= $decodearray[2]['name'];?></h5>
@@ -107,6 +105,83 @@
         </div>
     </div>
 
+    <div id="more">
+
+        <div class="card-deck">
+        <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal4">
+            <img class="card-img-top" src=<?= $decodearray[3]['image'];?> alt="Card image cap">
+            <div class="card-body">
+            <h5 class="card-title"><?= $decodearray[3]['name'];?></h5>
+            <p class="card-text"><?= $decodearray[3]['description'];?></p>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted"><?= $decodearray[3]['prix'];?></small>
+        </div>
+        </div>
+        <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal5">
+            <img class="card-img-top" src=<?= $decodearray[4]['image'];?> alt="Card image cap">
+            <div class="card-body">
+            <h5 class="card-title"><?= $decodearray[4]['name'];?></h5>
+            <p class="card-text"><?= $decodearray[4]['description'];?></p>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted"><?= $decodearray[4]['prix'];?></small>
+        </div>
+        </div>
+
+        <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal6">
+            <img class="card-img-top" src=<?= $decodearray[5]['image'];?> alt="Card image cap">
+            <div class="card-body">
+            <h5 class="card-title"><?= $decodearray[5]['name'];?></h5>
+            <p class="card-text"><?= $decodearray[5]['description'];?></p>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted"><?= $decodearray[5]['prix'];?></small>
+        </div>
+    </div>
+</div>
+
+
+<div class="card-deck">
+        <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal7">
+            <img class="card-img-top" src=<?= $decodearray[6]['image'];?> alt="Card image cap">
+            <div class="card-body">
+            <h5 class="card-title"><?= $decodearray[6]['name'];?></h5>
+            <p class="card-text"><?= $decodearray[6]['description'];?></p>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted"><?= $decodearray[6]['prix'];?></small>
+        </div>
+        </div>
+        <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal8">
+            <img class="card-img-top" src=<?= $decodearray[7]['image'];?> alt="Card image cap">
+            <div class="card-body">
+            <h5 class="card-title"><?= $decodearray[7]['name'];?></h5>
+            <p class="card-text"><?= $decodearray[7]['description'];?></p>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted"><?= $decodearray[7]['prix'];?></small>
+        </div>
+        </div>
+
+        <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal9">
+            <img class="card-img-top" src=<?= $decodearray[8]['image'];?> alt="Card image cap">
+            <div class="card-body">
+            <h5 class="card-title"><?= $decodearray[8]['name'];?></h5>
+            <p class="card-text"><?= $decodearray[8]['description'];?></p>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted"><?= $decodearray[8]['prix'];?></small>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="row justify-content-center">
+        <button id="myBtn" onclick="seeMore()">Voir plus</button>
+    </div>
+
+    </section>
 
         <!-- Modals -->
         <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -177,6 +252,7 @@
 
     </footer>
 
+    <script src="assets/JS/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
