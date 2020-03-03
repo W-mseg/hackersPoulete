@@ -177,12 +177,12 @@ header, main, footer {
 }
 
 #produits {
-  background-color: #303030;
+  background-color: #15c5bd;
 }
 
 #myBtn {
   border-radius: 5px;
-  background-color: #303030;
+  background-color: #15c5bd;
   border: 2px solid #FFF;
   color: white;
   font-weight: bold;
@@ -191,7 +191,8 @@ header, main, footer {
 }
 
 #myBtn:hover {
-  background-color: #15c5bd;
+  background-color: #FFF;
+  color: #303030;
 }
 
 #more {

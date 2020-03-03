@@ -51,7 +51,7 @@
             </form>
         </div>
     </nav>
-    
+
     <div class="fond"></div>
     <div class="fond2"></div>
         <div class=jumbotron>
@@ -193,6 +193,7 @@
                 </button>
                 </div>
                 <div class="modal-body">
+                    
                 </div>
                 <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
