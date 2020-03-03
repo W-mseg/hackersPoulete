@@ -29,7 +29,7 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#produits">Produits</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -75,8 +75,10 @@
         $decodearray = json_decode($contentget,true);
 
         ?>
+        
+    <section id="produits" class="pb-5">
 
-        <h2 class="text-center">Nos produits</h2>
+        <h2 class="text-center pb-3 pt-3 text-white">Nos produits</h2>
 
         <!-- Cards -->
 
@@ -114,6 +116,7 @@
         </div>
     </div>
 
+    </section>
 
         <!-- Modals -->
         <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
