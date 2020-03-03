@@ -51,14 +51,13 @@
             </form>
         </div>
     </nav>
-
+    <div class="fond"></div>
         <div class=jumbotron>
-            <div class=container>
+            <div class="container font-weight-bold">
                 <h1>Titre</h1>
-                <p>Contenu du jumbotron</p>
+                <p></p>
             </div>
-        </div>
-        <div class="fond"></div>
+        </div>     
 
     </header>
 
@@ -259,8 +258,8 @@
     <div class="col-md-6 mt-md-0 mt-3">
 
     <!-- Content -->
-    <h5 class="text-uppercase">Footer Content</h5>
-    <p>Here you can use rows and columns to organize your footer content.</p>
+    <h5 class="text-uppercase">Hackers Poulette</h5>
+    <p>La société Hackers Poulette ™ vend des kits et accessoires pour Raspberry Pi à monter soi-même</p>
 
     </div>
     <!-- Grid column -->
@@ -323,7 +322,7 @@
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+        <a href="#"> Hackers-Poulette.com</a>
     </div>
     <!-- Copyright -->
 
