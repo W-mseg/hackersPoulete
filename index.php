@@ -13,7 +13,6 @@
 <body>
 
     <!-- Header -->
-
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">
@@ -59,6 +58,7 @@
                 <p>Contenu du jumbotron</p>
             </div>
         </div>
+        <div class="fond"></div>
 
     </header>
 
@@ -245,6 +245,7 @@
         
 
     </main>
+
     <!-- Footer -->
     <footer class="page-footer font-small blue pt-4">
 
