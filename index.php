@@ -82,7 +82,7 @@
 
         <!-- Cards -->
         <div class="card-deck">
-            <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal1">
+            <div class="card col-12 col-md-6 col-lg-4" data-toggle="modal" data-target="#Modal1">
                 <img class="card-img-top" src=<?= $decodearray[0]['image'];?> alt="Card image cap">
                 <div class="card-body">
                 <h5 class="card-title"><?= $decodearray[0]['name'];?></h5>
@@ -92,7 +92,7 @@
                 <small class="text-muted"><?= $decodearray[0]['prix'];?></small>
             </div>
             </div>
-            <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal2">
+            <div class="card col-12 col-md-6 col-lg-4" data-toggle="modal" data-target="#Modal2">
                 <img class="card-img-top" src=<?= $decodearray[1]['image'];?> alt="Card image cap">
                 <div class="card-body">
                 <h5 class="card-title"><?= $decodearray[1]['name'];?></h5>
@@ -103,7 +103,7 @@
             </div>
             </div>
 
-            <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal3">
+            <div class="card col-12 col-md-6 col-lg-4" data-toggle="modal" data-target="#Modal3">
                 <img class="card-img-top" src=<?= $decodearray[2]['image'];?> alt="Card image cap">
                 <div class="card-body">
                 <h5 class="card-title"><?= $decodearray[2]['name'];?></h5>
@@ -114,6 +114,8 @@
             </div>
         </div>
     </div>
+
+    <p id="dots" class="text-white">...</p>
 
         <div id="more" class="card-deck">
         <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal1">

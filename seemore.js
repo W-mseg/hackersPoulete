@@ -5,11 +5,11 @@ function seeMore() {
 
     if (dots.style.display === "none") {
     dots.style.display = "inline";
-    btn.innerHTML = "Read more";
+    btn.innerHTML = "Voir plus";
     more.style.display = "none";
     } else {
     dots.style.display = "none";
-    btn.innerHTML = "See less";
-    more.style.display = "inline";
+    btn.innerHTML = "Voir moins";
+    more.style.display = "inline-block";
     }
 } 
