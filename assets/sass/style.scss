@@ -139,12 +139,12 @@ $dropDown       : false;
 }
 
 #produits{
-  background-color: $black;
+  background-color: $blue;
 }
 
 #myBtn{
   border-radius: 5px;
-  background-color: $black;
+  background-color: $blue;
   border: 2px solid $white;
   color: white;
   font-weight: bold;
@@ -153,7 +153,8 @@ $dropDown       : false;
 }
 
 #myBtn:hover{
-  background-color: $blue;
+  background-color: $white;
+  color: $black;
 }
 
 #more {
@@ -165,4 +166,13 @@ $dropDown       : false;
 input{
   border: solid rgba(79, 79, 79, 0.77) 0.5px;
   border-radius: 5px;
+}
+
+footer{
+  background-color: $black;
+  color: $white;
+
+  h5{
+    font-weight: bold;
+  }
 }
