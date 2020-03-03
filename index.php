@@ -52,6 +52,7 @@
         </div>
     </nav>
     <div class="fond"></div>
+    <div class="fond2"></div>
         <div class=jumbotron>
             <div class="container font-weight-bold">
                 <h1>Titre</h1>
@@ -259,7 +260,7 @@
 
     <!-- Content -->
     <h5 class="text-uppercase">Hackers Poulette</h5>
-    <p>La société Hackers Poulette ™ vend des kits et accessoires pour Raspberry Pi à monter soi-même</p>
+    <p>La société <i>Hackers Poulette</i> ™ vend des kits et accessoires pour Raspberry Pi à monter soi-même</p>
 
     </div>
     <!-- Grid column -->
