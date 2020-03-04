@@ -58,7 +58,7 @@
                 <h1>Titre</h1>
                 <p></p>
             </div>
-        </div>     
+        </div>
 
     </header>
 
@@ -69,7 +69,7 @@
         <h2 class="text-center pb-3 pt-3 text-white">Nos produits</h2>
         
         <!-- Cards -->
-        <div class="card-deck">
+        <div class="card-deck mr-0">
             <div class="card col-12 col-md-6 col-lg-4" data-toggle="modal" data-target="#Modal1">
                 <img class="card-img-top" src=<?= $decodearray[0]['image'];?> alt="Card image cap">
                 <div class="card-body">
@@ -105,7 +105,7 @@
 
     <div id="more">
 
-        <div class="card-deck">
+        <div class="card-deck mr-0">
         <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal4">
             <img class="card-img-top" src=<?= $decodearray[3]['image'];?> alt="Card image cap">
             <div class="card-body">
@@ -140,7 +140,7 @@
 </div>
 
 
-<div class="card-deck">
+<div class="card-deck mr-0">
         <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal7">
             <img class="card-img-top" src=<?= $decodearray[6]['image'];?> alt="Card image cap">
             <div class="card-body">
@@ -175,7 +175,7 @@
 </div>
 </div>
 
-<div class="row justify-content-center">
+<div class="row justify-content-center mr-0">
         <button id="myBtn" onclick="seeMore()">Voir plus</button>
     </div>
 
@@ -213,7 +213,9 @@
                 </button>
                 </div>
                 <div class="modal-body">
-                ...
+                    <div class="video">
+                        <?= $decodearray[1]['video'];?>
+                    </div>
                 </div>
                 <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -232,7 +234,9 @@
                 </button>
                 </div>
                 <div class="modal-body">
-                ...
+                    <div class="video">
+                        <?= $decodearray[2]['video'];?>
+                    </div>
                 </div>
                 <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -251,7 +255,9 @@
                 </button>
                 </div>
                 <div class="modal-body">
-                ...
+                    <div class="video">
+                        <?= $decodearray[3]['video'];?>
+                    </div>
                 </div>
                 <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -270,7 +276,9 @@
                 </button>
                 </div>
                 <div class="modal-body">
-                ...
+                    <div class="video">
+                        <?= $decodearray[4]['video'];?>
+                    </div>
                 </div>
                 <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -289,7 +297,9 @@
                 </button>
                 </div>
                 <div class="modal-body">
-                ...
+                    <div class="video">
+                        <?= $decodearray[5]['video'];?>
+                    </div>
                 </div>
                 <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -308,7 +318,9 @@
                 </button>
                 </div>
                 <div class="modal-body">
-                ...
+                    <div class="video">
+                        <?= $decodearray[6]['video'];?>
+                    </div>
                 </div>
                 <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -327,7 +339,9 @@
                 </button>
                 </div>
                 <div class="modal-body">
-                ...
+                    <div class="video">
+                        <?= $decodearray[7]['video'];?>
+                    </div>
                 </div>
                 <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -346,7 +360,9 @@
                 </button>
                 </div>
                 <div class="modal-body">
-                ...
+                    <div class="video">
+                        <?= $decodearray[8]['video'];?>
+                    </div>
                 </div>
                 <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

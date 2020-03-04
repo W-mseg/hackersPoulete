@@ -162,6 +162,8 @@ header, main, footer {
 
 .card-deck {
   padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 #produits {
