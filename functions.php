@@ -5,9 +5,7 @@ $decodearray = json_decode($contentget,true);
 //sanitizing
 
 //returning validinfos minus gender
-function emptying($postvar){
-    return $GLOBALS[$postvar];
-}
+
 //setting all undefined var to null for initialisation
 setter('gender');
 setter('subject');
@@ -16,11 +14,15 @@ setter('lastname');
 setter('e-mail');
 
 //filter all var
-$postname = filter_var($_POST['name'], FILTER_SANITIZE_STRING) ;
-$postlastname = filter_var($_POST['lastname'], FILTER_SANITIZE_STRING) ;
 
-$postemail = filter_var($_POST['e-mail'], FILTER_SANITIZE_EMAIL);
+$postname =trim(preg_replace('/[\s,\d]/', '', filter_var($_POST['name'], FILTER_SANITIZE_STRING)));
+$postlastname =trim(preg_replace('/[\s,\d]/', '', filter_var($_POST['lastname'], FILTER_SANITIZE_STRING)));
+$postemail =trim(preg_replace('/[\s]/', '', filter_var($_POST['e-mail'], FILTER_SANITIZE_STRING)));
 $validemail = filter_var($postemail, FILTER_VALIDATE_EMAIL);
+
+function emptying($postvar){
+    return $postvar;
+}
 
 function setter($setting){
     if(!isset($_POST[$setting])){
@@ -47,14 +49,18 @@ function subjectvalide($selector){
         return 'selected=\'selected\'';
     }
 }
+ini_set('SMTP', "server.com");
+ini_set('smtp_port', "25");
+ini_set('sendmail_from', "marco.segretario2705@gmail.com");
 
-
-
+$messageall = $GLOBALS['postname']." ".$GLOBALS['postlastname']." ".$GLOBALS['postemail']." ".$GLOBALS['postgender']." ".$GLOBALS['postsubject'];
+       $mailing= mail($GLOBALS['postemail'],$GLOBALS['postsubject'],$GLOBALS['messageall'],'From: tucrackerapascesite@hackerspoulete.com');
 
 function actionform()
 {
     if($GLOBALS['validemail'] == true && !empty($GLOBALS['postname']) && !empty($GLOBALS['postlastname']) && empty($_POST['pays']) && empty($_POST['country'])){
-        return "Votre formulaire a bien été validé";
+            $GLOBALS['mailing'];
+            return "Formulaire validé";
     }
     elseif($GLOBALS['validemail'] == false || empty($GLOBALS['postname']) || empty($GLOBALS['postlastname'])&& !empty($_POST['pays']) || !empty($_POST['country'])){
         return "Formulaire invalide";
