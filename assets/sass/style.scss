@@ -142,6 +142,29 @@ $dropDown       : false;
   background-color: $blue;
 }
 
+.video{
+  text-align: center;
+
+  @media(min-width:500px){
+    iframe{
+      width: 450px;
+    }
+  }
+
+  @media(max-width:500px){
+    iframe{
+      width: 300px;
+    }
+  }
+
+  @media(max-width:300px){
+    iframe{
+      width: 150px;
+    }
+  }  
+
+}
+
 #myBtn{
   border-radius: 5px;
   background-color: $blue;

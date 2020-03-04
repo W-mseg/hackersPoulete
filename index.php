@@ -53,7 +53,6 @@
     </nav>
 
     <div class="fond"></div>
-    <div class="fond2"></div>
         <div class=jumbotron>
             <div class="container font-weight-bold">
                 <h1>Titre</h1>
@@ -192,8 +191,10 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
                 </div>
-                <div class="modal-body">
-                    
+                <div class="modal-body ">
+                    <div class="video">
+                        <?= $decodearray[0]['video'];?>
+                    </div>
                 </div>
                 <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

@@ -168,6 +168,28 @@ header, main, footer {
   background-color: #15c5bd;
 }
 
+.video {
+  text-align: center;
+}
+
+@media (min-width: 500px) {
+  .video iframe {
+    width: 450px;
+  }
+}
+
+@media (max-width: 500px) {
+  .video iframe {
+    width: 300px;
+  }
+}
+
+@media (max-width: 300px) {
+  .video iframe {
+    width: 150px;
+  }
+}
+
 #myBtn {
   border-radius: 5px;
   background-color: #15c5bd;
