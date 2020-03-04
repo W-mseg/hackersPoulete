@@ -13,6 +13,7 @@ header, main, footer {
 /*NavBar*/
 .navbar {
   background-color: #15c5bd;
+  margin-bottom: 0px;
 }
 
 .navbar .navbar-brand {
@@ -157,15 +158,27 @@ header, main, footer {
 
 .jumbotron {
   margin-bottom: 0px;
-  height: 300px;
+  height: 500px;
   color: #15c5bd;
-  background: transparent;
+}
+
+.test {
+  color: #15c5bd;
+}
+
+.test img {
+  float: right;
 }
 
 .card-deck {
   padding-bottom: 30px;
   padding-left: 50px;
   padding-right: 50px;
+}
+
+.card:hover {
+  border: 1px solid #303030;
+  cursor: pointer;
 }
 
 #produits {
@@ -207,6 +220,7 @@ header, main, footer {
 #myBtn:hover {
   background-color: #FFF;
   color: #303030;
+  border: 2px solid #303030;
 }
 
 #more {

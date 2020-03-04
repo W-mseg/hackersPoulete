@@ -113,7 +113,6 @@ $dropDown       : false;
     color: $colHighlight;
     background-color: $bgHighlight; }}
 
-
     /*Jumbotron*/
     @media(min-width:500px){
       .fond {
@@ -131,15 +130,29 @@ $dropDown       : false;
 
   .jumbotron {
     margin-bottom: 0px;
-    height: 300px;
+    height: 500px;
     color: $blue;
-    background:transparent;
+
+}
+
+.test{
+  color: $blue;
+  img{
+    float: right;
+  }
 }
 
 .card-deck{
   padding-bottom: 30px;
   padding-left: 50px;
   padding-right: 50px;
+}
+
+.card{
+  &:hover{
+  border: 1px solid $black;
+  cursor: pointer;
+  }
 }
 
 #produits{
@@ -177,11 +190,12 @@ $dropDown       : false;
   font-weight: bold;
   height: 50px;
   width: 105px;
-}
 
-#myBtn:hover{
-  background-color: $white;
-  color: $black;
+  &:hover{
+    background-color: $white;
+    color: $black;
+    border: 2px solid $black;
+  }
 }
 
 #more {
