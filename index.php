@@ -25,15 +25,15 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
         <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-            <a class="nav-link" href="#">Home
+            <a class="nav-link" href="#">Accueil
             <span class="sr-only">(current)</span>
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#produits">Produits</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">Services</a>
         </li>
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
@@ -74,59 +74,16 @@
     </nav>
 
     <!--Carousel-->
-    <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
-    <!--Indicators-->
-    <ol class="carousel-indicators">
-        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-2" data-slide-to="1"></li>
-    </ol>
-
-    <!--Slides-->
-    <div class="carousel-inner" role="listbox">
-        <div class="carousel-item active">
-        <div class="view">
-            <img class="d-block w-100" src="./assets/raspberry1.jpg"
-            alt="First slide">
-            <div class="mask rgba-black-light"></div>
-        </div>
-        <div class="carousel-caption">
-            <h3 class="h3-responsive">mask</h3>
-            <p>First text</p>
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/raspberry1.jpg" alt="Raspberry Pi">
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100" src="assets/raspberry2.jpg" alt="Raspberry Pi">
+            </div>
         </div>
         </div>
-        <div class="carousel-item">
-        <!--Mask color-->
-        <div class="view">
-            <img class="d-block w-100" src="./assets/raspberry2.jpg"
-            alt="Second slide">
-            <div class="mask rgba-black-strong"></div>
-        </div>
-        <div class="carousel-caption">
-            <h3 class="h3-responsive">mask</h3>
-            <p>Secondary text</p>
-        </div>
-        </div>
-    </div>
-
-    <!--Controls-->
-    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-    </div>
-
-    <!--Qui sommes-nous ?-->
-    <div class="jumbotron">
-        <div class="test font-weight-bold">
-            
-            <h1>Qui sommes-nous ?</h1>
-            <p>Basé à Charleroi, l'entreprise Hackers Poulette a été créée en 2020 par Yassine BOUKAMIR et Marco SEGRETARIO, elle est devenue au fil des année un acteur majeur dans le commerce de solutions électroniques.</p>
-        </div>
-    </div>
 
     </header>
 
@@ -139,7 +96,7 @@
         <!-- Cards -->
         <div class="card-deck mr-0">
             <div class="card col-12 col-md-6 col-lg-4" data-toggle="modal" data-target="#Modal1">
-                <img class="card-img-top" src=<?= $decodearray[0]['image'];?> alt="Card image cap">
+                <img class="card-img-top" src=<?= $decodearray[0]['image'];?> alt=<?= $decodearray[0]['name'];?>>
                 <div class="card-body">
                 <h5 class="card-title"><?= $decodearray[0]['name'];?></h5>
                 <p class="card-text"><?= $decodearray[0]['description'];?></p>
@@ -149,7 +106,7 @@
             </div>
             </div>
             <div class="card col-12 col-md-6 col-lg-4" data-toggle="modal" data-target="#Modal2">
-                <img class="card-img-top" src=<?= $decodearray[1]['image'];?> alt="Card image cap">
+                <img class="card-img-top" src=<?= $decodearray[1]['image'];?> alt=<?= $decodearray[1]['name'];?>>
                 <div class="card-body">
                 <h5 class="card-title"><?= $decodearray[1]['name'];?></h5>
                 <p class="card-text"><?= $decodearray[1]['description'];?></p>
@@ -160,7 +117,7 @@
             </div>
 
             <div class="card col-12 col-md-6 col-lg-4" data-toggle="modal" data-target="#Modal3">
-                <img class="card-img-top" src=<?= $decodearray[2]['image'];?> alt="Card image cap">
+                <img class="card-img-top" src=<?= $decodearray[2]['image'];?> alt=<?= $decodearray[2]['name'];?>>
                 <div class="card-body">
                 <h5 class="card-title"><?= $decodearray[2]['name'];?></h5>
                 <p class="card-text"><?= $decodearray[2]['description'];?></p>
@@ -175,7 +132,7 @@
 
         <div class="card-deck mr-0">
         <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal4">
-            <img class="card-img-top" src=<?= $decodearray[3]['image'];?> alt="Card image cap">
+            <img class="card-img-top" src=<?= $decodearray[3]['image'];?> alt=<?= $decodearray[3]['name'];?>>
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[3]['name'];?></h5>
             <p class="card-text"><?= $decodearray[3]['description'];?></p>
@@ -185,7 +142,7 @@
         </div>
         </div>
         <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal5">
-            <img class="card-img-top" src=<?= $decodearray[4]['image'];?> alt="Card image cap">
+            <img class="card-img-top" src=<?= $decodearray[4]['image'];?> alt=<?= $decodearray[4]['name'];?>>
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[4]['name'];?></h5>
             <p class="card-text"><?= $decodearray[4]['description'];?></p>
@@ -196,7 +153,7 @@
         </div>
 
         <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal6">
-            <img class="card-img-top" src=<?= $decodearray[5]['image'];?> alt="Card image cap">
+            <img class="card-img-top" src=<?= $decodearray[5]['image'];?> alt=<?= $decodearray[5]['name'];?>>
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[5]['name'];?></h5>
             <p class="card-text"><?= $decodearray[5]['description'];?></p>
@@ -210,7 +167,7 @@
 
 <div class="card-deck mr-0">
         <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal7">
-            <img class="card-img-top" src=<?= $decodearray[6]['image'];?> alt="Card image cap">
+            <img class="card-img-top" src=<?= $decodearray[6]['image'];?> alt=<?= $decodearray[6]['name'];?>>
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[6]['name'];?></h5>
             <p class="card-text"><?= $decodearray[6]['description'];?></p>
@@ -220,7 +177,7 @@
         </div>
         </div>
         <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal8">
-            <img class="card-img-top" src=<?= $decodearray[7]['image'];?> alt="Card image cap">
+            <img class="card-img-top" src=<?= $decodearray[7]['image'];?> alt=<?= $decodearray[7]['name'];?>>
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[7]['name'];?></h5>
             <p class="card-text"><?= $decodearray[7]['description'];?></p>
@@ -231,7 +188,7 @@
         </div>
 
         <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal9">
-            <img class="card-img-top" src=<?= $decodearray[8]['image'];?> alt="Card image cap">
+            <img class="card-img-top" src=<?= $decodearray[8]['image'];?> alt=<?= $decodearray[8]['name'];?>>
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[8]['name'];?></h5>
             <p class="card-text"><?= $decodearray[8]['description'];?></p>
@@ -450,88 +407,129 @@
     </main>
 
     <!-- Footer -->
-    <footer class="page-footer font-small blue pt-4">
+    <footer class="page-footer font-small stylish-color-dark pt-4">
 
     <!-- Footer Links -->
-    <div class="container-fluid text-center text-md-left">
+    <div class="container text-center text-md-left">
 
-    <!-- Grid row -->
-    <div class="row">
+        <!-- Grid row -->
+        <div class="row">
 
-    <!-- Grid column -->
-    <div class="col-md-6 mt-md-0 mt-3">
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">
 
-    <!-- Content -->
-    <h5 class="text-uppercase">Hackers Poulette</h5>
-    <p>La société <i>Hackers Poulette</i> ™ vend des kits et accessoires pour Raspberry Pi à monter soi-même</p>
+            <!-- Content -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Hackers-Poulette</h5>
+            <p>La société Hackers Poulette ™ vend des kits et accessoires pour Raspberry Pi à monter soi-même.</p>
 
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Liens</h5>
+
+            <ul class="list-unstyled">
+            <li>
+                <a href="#produits">Produits</a>
+            </li>
+            <li>
+                <a href="#!">Link 2</a>
+            </li>
+            <li>
+                <a href="#!">Link 3</a>
+            </li>
+            <li>
+                <a href="#!">Link 4</a>
+            </li>
+            </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Informations</h5>
+
+            <ul class="list-unstyled">
+            <li>
+                <a href="#!">Qui sommes-nous ?</a>
+            </li>
+            <li>
+                <a href="#!">Link 2</a>
+            </li>
+            <li>
+                <a href="#!">Link 3</a>
+            </li>
+            <li>
+                <a href="#!">Link 4</a>
+            </li>
+            </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contact</h5>
+
+            <ul class="list-unstyled">
+            <li>
+                <a href="#!">Link 1</a>
+            </li>
+            <li>
+                <a href="#!">Link 2</a>
+            </li>
+            <li>
+                <a href="#!">Link 3</a>
+            </li>
+            <li>
+                <a href="#!">Link 4</a>
+            </li>
+            </ul>
+
+        </div>
+        </div>
     </div>
-    <!-- Grid column -->
 
-    <hr class="clearfix w-100 d-md-none pb-3">
+    <hr>
 
-    <!-- Grid column -->
-    <div class="col-md-3 mb-md-0 mb-3">
-
-    <!-- Links -->
-    <h5 class="text-uppercase">Links</h5>
-
-    <ul class="list-unstyled">
-        <li>
-            <a href="#!">Link 1</a>
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+            <i class="fab fa-facebook-f"> </i>
+        </a>
         </li>
-        <li>
-            <a href="#!">Link 2</a>
+        <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+            <i class="fab fa-twitter"> </i>
+        </a>
         </li>
-        <li>
-            <a href="#!">Link 3</a>
-        </li>
-        <li>
-            <a href="#!">Link 4</a>
+        <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+            <i class="fab fa-linkedin-in"> </i>
+        </a>
         </li>
     </ul>
-
-    </div>
-    <!-- Grid column -->
-
-    <!-- Grid column -->
-    <div class="col-md-3 mb-md-0 mb-3">
-
-    <!-- Links -->
-    <h5 class="text-uppercase">Links</h5>
-
-    <ul class="list-unstyled">
-        <li>
-            <a href="#!">Link 1</a>
-        </li>
-        <li>
-            <a href="#!">Link 2</a>
-        </li>
-        <li>
-            <a href="#!">Link 3</a>
-        </li>
-        <li>
-            <a href="#!">Link 4</a>
-        </li>
-    </ul>
-
-    </div>
-    <!-- Grid column -->
-
-    </div>
-    <!-- Grid row -->
-
-    </div>
-    <!-- Footer Links -->
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
         <a href="#"> Hackers-Poulette.com</a>
     </div>
-    <!-- Copyright -->
-
     </footer>
-    <!-- Footer -->
 
     <script src="assets/JS/script.js"></script>
     <script src="https://kit.fontawesome.com/2e89726559.js" crossorigin="anonymous"></script>

@@ -113,6 +113,14 @@ $dropDown       : false;
     color: $colHighlight;
     background-color: $bgHighlight; }}
 
+    /*Carousel*/
+    #carousel{
+      img{
+        background-size: cover;
+        height:600px;
+        width: 300px;
+      }
+    }
     /*Jumbotron*/
     @media(min-width:500px){
       .fond {
@@ -213,7 +221,22 @@ footer{
   background-color: $black;
   color: $white;
 
+  a{
+    color:$white;
+    &:hover{
+      color:$blue;
+      text-decoration: none;
+    }
+  }
+
   h5{
     font-weight: bold;
+  }
+
+  .list-inline-item{
+    &:hover{
+      color: $blue;
+      cursor: pointer;
+    }
   }
 }

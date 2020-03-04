@@ -13,7 +13,6 @@ header, main, footer {
 /*NavBar*/
 .navbar {
   background-color: #15c5bd;
-  margin-bottom: 0px;
 }
 
 .navbar .navbar-brand {
@@ -141,6 +140,13 @@ header, main, footer {
   background-color: #15c5bd;
 }
 
+/*Carousel*/
+#carousel img {
+  background-size: cover;
+  height: 600px;
+  width: 300px;
+}
+
 /*Jumbotron*/
 @media (min-width: 500px) {
   .fond {
@@ -241,7 +247,21 @@ footer {
   color: #FFF;
 }
 
+footer a {
+  color: #FFF;
+}
+
+footer a:hover {
+  color: #15c5bd;
+  text-decoration: none;
+}
+
 footer h5 {
   font-weight: bold;
+}
+
+footer .list-inline-item:hover {
+  color: #15c5bd;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
