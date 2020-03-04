@@ -52,19 +52,65 @@
         </div>
     </nav>
 
-    <div class="fond"></div>
-        <div class=jumbotron>
-            <div class="container font-weight-bold">
-                <h1>Titre</h1>
-                <p></p>
-            </div>
+    <!--Carousel-->
+    <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-2" data-slide-to="1"></li>
+    </ol>
+
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+        <div class="view">
+            <img class="d-block w-100" src="./assets/raspberry1.jpg"
+            alt="First slide">
+            <div class="mask rgba-black-light"></div>
         </div>
+        <div class="carousel-caption">
+            <h3 class="h3-responsive">mask</h3>
+            <p>First text</p>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+            <img class="d-block w-100" src="./assets/raspberry2.jpg"
+            alt="Second slide">
+            <div class="mask rgba-black-strong"></div>
+        </div>
+        <div class="carousel-caption">
+            <h3 class="h3-responsive">mask</h3>
+            <p>Secondary text</p>
+        </div>
+        </div>
+    </div>
+
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    </div>
+
+    <!--Qui sommes-nous ?-->
+    <div class=jumbotron>
+        <div class="container font-weight-bold">
+            <h1>Qui sommes-nous ?</h1>
+            <p>Basé à Charleroi, l'entreprise Hackers Poulette a été créée en 2020 par Yassine BOUKAMIR et Marco SEGRETARIO, elle est devenue au fil des année un acteur majeur dans le commerce de solutions électroniques.</p>
+        </div>
+    </div>
 
     </header>
 
     <main>
         
-        <section id="produits" class="pb-5">
+        <section id="produits" class="pb-4">
 
         <h2 class="text-center pb-3 pt-3 text-white">Nos produits</h2>
         
