@@ -49,14 +49,18 @@ function subjectvalide($selector){
         return 'selected=\'selected\'';
     }
 }
+ini_set('SMTP', "server.com");
+ini_set('smtp_port', "25");
+ini_set('sendmail_from', "marco.segretario2705@gmail.com");
 
-
-
+$messageall = $GLOBALS['postname']." ".$GLOBALS['postlastname']." ".$GLOBALS['postemail']." ".$GLOBALS['postgender']." ".$GLOBALS['postsubject'];
+       $mailing= mail($GLOBALS['postemail'],$GLOBALS['postsubject'],$GLOBALS['messageall'],'From: tucrackerapascesite@hackerspoulete.com');
 
 function actionform()
 {
     if($GLOBALS['validemail'] == true && !empty($GLOBALS['postname']) && !empty($GLOBALS['postlastname']) && empty($_POST['pays']) && empty($_POST['country'])){
-        return "Votre formulaire a bien été validé";
+            $GLOBALS['mailing'];
+            return "Formulaire validé";
     }
     elseif($GLOBALS['validemail'] == false || empty($GLOBALS['postname']) || empty($GLOBALS['postlastname'])&& !empty($_POST['pays']) || !empty($_POST['country'])){
         return "Formulaire invalide";
