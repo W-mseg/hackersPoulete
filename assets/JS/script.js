@@ -18,14 +18,17 @@ function seeMore() {
 immediateform(name);
 immediateform(lastname);
 immediateform(email);
-function immediateform(element){
-    if(element.value == ""){
+function immediateform(element) {
+    if (element.value == "")
+    {
         element.classList.add('errorform');
+    }
+    else if(element.value == null){
+        element.classList.remove('errorform');
     }
     else{
         element.classList.remove('errorform');
     }
-
 }
 
 
