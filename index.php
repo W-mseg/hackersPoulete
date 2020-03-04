@@ -73,17 +73,17 @@
     </div>
     </nav>
 
-    <!--Carousel-->
-    <div id="carousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-            <img class="d-block w-100" src="assets/raspberry1.jpg" alt="Raspberry Pi">
-            </div>
-            <div class="carousel-item">
-            <img class="d-block w-100" src="assets/raspberry2.jpg" alt="Raspberry Pi">
-            </div>
-        </div>
-        </div>
+    <div class="jumbotron card card-image" style="background-image: url(assets/raspberry1.jpg);">
+    <div class="text-white text-center py-5 px-4">
+    <div>
+        <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Hackers Poulette</strong></h2>
+        <p class="mx-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
+        optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed qui, dolorum!
+        </p>
+        <a class="btn btn-outline-white btn-md"><i class="fas fa-clone left"></i> View project</a>
+    </div>
+    </div>
+    </div>
 
     </header>
 
