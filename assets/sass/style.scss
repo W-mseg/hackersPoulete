@@ -233,10 +233,49 @@ footer{
     font-weight: bold;
   }
 
+
   .list-inline-item{
     &:hover{
       color: $blue;
       cursor: pointer;
     }
+
+}
+}
+form{
+border: solid 2px;
+  width: 100%;
+  padding: 20px;
+  background-color: $blue;
+  .firstline{
+    display: flex;
+    justify-content: center;
+    margin: 0 25px;
+  }
+  .secondline{
+    display: flex;
+    justify-content: center;
+    margin: 0 25px;
+  }
+button{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  background-color: $white;
+  border: solid $white;
+}
+  input{
+    text-align: center;
+
+min-width: 50px;
+    max-width: 250px;
+    margin: 0 25px;
+}
+  select{
+    margin: 0 25px;
+    border-radius: 5px;
+
   }
 }
