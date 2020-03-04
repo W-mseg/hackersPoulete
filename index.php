@@ -374,7 +374,7 @@
     <?php require ('formulaire.php'); ?>
         <pre>
             <?php
-            var_dump($GLOBALS['postname']." ".$GLOBALS['postlastname']." ".$GLOBALS['postemail']." ".$GLOBALS['postgender']." ".$GLOBALS['postsubject']);
+            print_r($GLOBALS['postname']." ".$GLOBALS['postlastname']." ".$GLOBALS['postemail']." ".$GLOBALS['postgender']." ".$GLOBALS['postsubject']);
             echo " ".actionform()
             ?>
         </pre>
