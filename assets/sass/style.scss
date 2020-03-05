@@ -140,6 +140,8 @@ $dropDown       : false;
     margin-bottom: 0px;
     height: 500px;
     color: $blue;
+    background-size: cover;
+    background-position: center;
 
 }
 
@@ -154,13 +156,14 @@ $dropDown       : false;
   padding-bottom: 30px;
   padding-left: 50px;
   padding-right: 50px;
-}
 
-.card{
-  &:hover{
-  border: 1px solid $black;
-  cursor: pointer;
+  .card{
+    &:hover{
+    border: 1px solid $black;
+    cursor: pointer;
+    }
   }
+
 }
 
 #produits{

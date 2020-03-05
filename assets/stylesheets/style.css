@@ -178,6 +178,8 @@ header, main, footer {
   margin-bottom: 0px;
   height: 500px;
   color: #15c5bd;
+  background-size: cover;
+  background-position: center;
 }
 
 /* line 146, ../sass/style.scss */
@@ -196,8 +198,7 @@ header, main, footer {
   padding-right: 50px;
 }
 
-/* line 160, ../sass/style.scss */
-.card:hover {
+.card-deck .card:hover {
   border: 1px solid #303030;
   cursor: pointer;
 }
