@@ -34,5 +34,5 @@
     <input type="hidden" name="country">
     <textarea name="text" id="text" cols="59" rows="6" placeholder="Message*" ><?= emptying($posttext) ?></textarea>
     <br>
-    <button type="submit" id="button">Envoyer</button>
+    <button type="submit" id="button">ENVOYER</button>
 </form>

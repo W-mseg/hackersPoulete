@@ -240,7 +240,12 @@ form{
     margin-right: auto;
     border-radius: 5px;
     background-color: $white;
-    border: solid $white;
+    border: none;
+
+    &:hover{
+      background-color: $black;
+      color: $white;
+    }
 }
 
   input{
@@ -255,7 +260,7 @@ form{
     border-radius: 5px;
     height: 40px;
   }
-  
+
 }
 
 body,html{
