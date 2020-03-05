@@ -140,6 +140,8 @@ $dropDown       : false;
     margin-bottom: 0px;
     height: 500px;
     color: $blue;
+    background-size: cover;
+    background-position: center;
 
 }
 
@@ -161,7 +163,7 @@ $dropDown       : false;
     cursor: pointer;
     }
   }
-  
+
 }
 
 #produits{

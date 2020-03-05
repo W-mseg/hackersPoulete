@@ -166,6 +166,8 @@ header, main, footer {
   margin-bottom: 0px;
   height: 500px;
   color: #15c5bd;
+  background-size: cover;
+  background-position: center;
 }
 
 .test {
