@@ -1,4 +1,3 @@
-<p><?= actionform() ?></p>
 
 <form method="post" action ='./index.php'>
     <input type="hidden" name="pays">
