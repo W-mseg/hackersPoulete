@@ -1,341 +1,47 @@
-@font-face {
-  font-family: 'bellotaregular';
-  src: url("../web_fonts/bellota_regular_macroman/Bellota-Regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-/*Charte graphique*/
-/* line 13, ../sass/style.scss */
-header, main, footer {
-  font-family: 'bellotaregular';
-}
+/*
+Error: Invalid CSS after "}": expected "}", was ""
+        on line 290 of C:/wamper/wamp64/www/hackersPoulete/assets/sass/style.scss
 
-/*NavBar*/
-/* line 23, ../sass/style.scss */
-.navbar {
-  background-color: #15c5bd;
-}
-/* line 25, ../sass/style.scss */
-.navbar .navbar-brand {
-  color: #ffffff;
-}
-/* line 27, ../sass/style.scss */
-.navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
-  color: #303030;
-}
-/* line 29, ../sass/style.scss */
-.navbar .navbar-text {
-  color: #ffffff;
-}
-/* line 31, ../sass/style.scss */
-.navbar .navbar-text a {
-  color: #303030;
-}
-/* line 33, ../sass/style.scss */
-.navbar .navbar-text a:hover, .navbar .navbar-text a:focus {
-  color: #303030;
-}
-/* line 36, ../sass/style.scss */
-.navbar .navbar-nav .nav-link {
-  color: #ffffff;
-  border-radius: .25rem;
-  margin: 0 0.25em;
-}
-/* line 41, ../sass/style.scss */
-.navbar .navbar-nav .nav-link:not(.disabled):hover, .navbar .navbar-nav .nav-link:not(.disabled):focus {
-  color: #303030;
-}
-/* line 55, ../sass/style.scss */
-.navbar .navbar-nav .nav-item.active .nav-link, .navbar .navbar-nav .nav-item.active .nav-link:hover, .navbar .navbar-nav .nav-item.active .nav-link:focus, .navbar .navbar-nav .nav-item.show .nav-link, .navbar .navbar-nav .nav-item.show .nav-link:hover, .navbar .navbar-nav .nav-item.show .nav-link:focus {
-  color: #303030;
-  background-color: #15c5bd;
-}
-/* line 58, ../sass/style.scss */
-.navbar .navbar-toggle {
-  border-color: #15c5bd;
-}
-/* line 60, ../sass/style.scss */
-.navbar .navbar-toggle:hover, .navbar .navbar-toggle:focus {
-  background-color: #15c5bd;
-}
-/* line 62, ../sass/style.scss */
-.navbar .navbar-toggle .navbar-toggler-icon {
-  color: #ffffff;
-}
-/* line 64, ../sass/style.scss */
-.navbar .navbar-collapse,
-.navbar .navbar-form {
-  border-color: #ffffff;
-}
-/* line 67, ../sass/style.scss */
-.navbar .navbar-link {
-  color: #ffffff;
-}
-/* line 69, ../sass/style.scss */
-.navbar .navbar-link:hover {
-  color: #303030;
-}
+285:   .list-inline-item{
+286:     &:hover{
+287:       color: $blue;
+288:       cursor: pointer;
+289:     }
+290: }
 
-@media (max-width: 575px) {
-  /* line 73, ../sass/style.scss */
-  .navbar-expend-sm .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #ffffff;
-  }
-  /* line 75, ../sass/style.scss */
-  .navbar-expend-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-    color: #303030;
-  }
-  /* line 77, ../sass/style.scss */
-  .navbar-expend-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #303030;
-    background-color: #15c5bd;
-  }
-}
-@media (max-width: 767px) {
-  /* line 82, ../sass/style.scss */
-  .navbar-expend-md .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #ffffff;
-  }
-  /* line 84, ../sass/style.scss */
-  .navbar-expend-md .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-    color: #303030;
-  }
-  /* line 86, ../sass/style.scss */
-  .navbar-expend-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #303030;
-    background-color: #15c5bd;
-  }
-}
-@media (max-width: 991px) {
-  /* line 91, ../sass/style.scss */
-  .navbar-expend-lg .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #ffffff;
-  }
-  /* line 93, ../sass/style.scss */
-  .navbar-expend-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-    color: #303030;
-  }
-  /* line 95, ../sass/style.scss */
-  .navbar-expend-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #303030;
-    background-color: #15c5bd;
-  }
-}
-@media (max-width: 1199px) {
-  /* line 100, ../sass/style.scss */
-  .navbar-expend-xl .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #ffffff;
-  }
-  /* line 102, ../sass/style.scss */
-  .navbar-expend-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-    color: #303030;
-  }
-  /* line 104, ../sass/style.scss */
-  .navbar-expend-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #303030;
-    background-color: #15c5bd;
-  }
-}
-/* line 108, ../sass/style.scss */
-.navbar-expend .navbar-nav .show .dropdown-menu .dropdown-item {
-  color: #ffffff;
-}
-/* line 110, ../sass/style.scss */
-.navbar-expend .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-  color: #303030;
-}
-/* line 112, ../sass/style.scss */
-.navbar-expend .navbar-nav .show .dropdown-menu .dropdown-item.active {
-  color: #303030;
-  background-color: #15c5bd;
-}
-
-/*Carousel*/
-/* line 118, ../sass/style.scss */
-#carousel img {
-  background-size: cover;
-  height: 600px;
-  width: 300px;
-}
-
-/*Jumbotron*/
-@media (min-width: 500px) {
-  /* line 126, ../sass/style.scss */
-  .fond {
-    background-image: url("../poulet.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    position: absolute;
-    width: 100%;
-    height: 300px;
-    top: 3em;
-    left: 0;
-    z-index: 1 !important;
-  }
-}
-/* line 139, ../sass/style.scss */
-.jumbotron {
-  margin-bottom: 0px;
-  height: 500px;
-  color: #15c5bd;
-  background-size: cover;
-  background-position: center;
-}
-
-/* line 148, ../sass/style.scss */
-.test {
-  color: #15c5bd;
-}
-/* line 150, ../sass/style.scss */
-.test img {
-  float: right;
-}
-
-/* line 155, ../sass/style.scss */
-.card-deck {
-  padding-bottom: 30px;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-/* line 161, ../sass/style.scss */
-.card-deck .card:hover {
-  border: 1px solid #303030;
-  cursor: pointer;
-}
-
-/* line 169, ../sass/style.scss */
-#produits {
-  background-color: #15c5bd;
-}
-
-/* line 173, ../sass/style.scss */
-.video {
-  text-align: center;
-}
-@media (min-width: 500px) {
-  /* line 177, ../sass/style.scss */
-  .video iframe {
-    width: 450px;
-  }
-}
-@media (max-width: 500px) {
-  /* line 183, ../sass/style.scss */
-  .video iframe {
-    width: 300px;
-  }
-}
-@media (max-width: 300px) {
-  /* line 189, ../sass/style.scss */
-  .video iframe {
-    width: 150px;
-  }
-}
-
-/* line 196, ../sass/style.scss */
-#btntest {
-  background-color: #15c5bd;
-}
-
-/* line 200, ../sass/style.scss */
-#myBtn {
-  border-radius: 5px;
-  background-color: #15c5bd;
-  border: 2px solid #FFF;
-  color: white;
-  font-weight: bold;
-  height: 50px;
-  width: 105px;
-}
-/* line 209, ../sass/style.scss */
-#myBtn:hover {
-  background-color: #FFF;
-  color: #303030;
-  border: 2px solid #303030;
-}
-
-/* line 216, ../sass/style.scss */
-#more {
-  display: none;
-}
-
-/* line 219, ../sass/style.scss */
-.errorform {
-  border: solid rgba(255, 0, 0, 0.81) 0.5px !important;
-}
-
-/* line 222, ../sass/style.scss */
-input {
-  border: solid rgba(79, 79, 79, 0.77) 0.5px;
-  border-radius: 5px;
-}
-
-/* line 227, ../sass/style.scss */
-footer {
-  background-color: #303030;
-  color: #FFF;
-}
-/* line 231, ../sass/style.scss */
-footer a {
-  color: #FFF;
-}
-/* line 233, ../sass/style.scss */
-footer a:hover {
-  color: #15c5bd;
-  text-decoration: none;
-}
-/* line 239, ../sass/style.scss */
-footer h5 {
-  font-weight: bold;
-}
-/* line 245, ../sass/style.scss */
-footer .list-inline-item:hover {
-  color: #15c5bd;
-  cursor: pointer;
-}
-
-/* line 252, ../sass/style.scss */
-form {
-  border: solid 2px;
-  width: 100%;
-  padding: 20px;
-  background-color: #15c5bd;
-}
-/* line 257, ../sass/style.scss */
-form .firstline {
-  display: flex;
-  justify-content: center;
-  margin: 0 25px;
-}
-/* line 262, ../sass/style.scss */
-form .secondline {
-  display: flex;
-  justify-content: center;
-  margin: 0 25px;
-}
-/* line 267, ../sass/style.scss */
-form button {
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
-  background-color: #FFF;
-  border: solid #FFF;
-}
-/* line 276, ../sass/style.scss */
-form input {
-  text-align: center;
-  min-width: 50px;
-  max-width: 250px;
-  margin: 0 25px;
-}
-/* line 283, ../sass/style.scss */
-form select {
-  margin: 0 25px;
-  border-radius: 5px;
-}
-
-/* line 290, ../sass/style.scss */
-body, html {
-  scroll-behavior: smooth;
-}
+Backtrace:
+C:/wamper/wamp64/www/hackersPoulete/assets/sass/style.scss:290
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1137:in `expected'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1132:in `tok!'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:667:in `block'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:685:in `block_child'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:677:in `block_contents'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:666:in `block'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:658:in `ruleset'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:684:in `block_child'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:677:in `block_contents'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:125:in `stylesheet'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:41:in `parse'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/engine.rb:409:in `_to_tree'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:40:in `compile!'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/compass-1.0.3/lib/compass/commands/update_project.rb:49:in `perform'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+C:/Ruby27-x64/bin/compass:23:in `load'
+C:/Ruby27-x64/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 290 of C:/wamper/wamp64/www/hackersPoulete/assets/sass/style.scss\A \A 285:   .list-inline-item{\A 286:     &:hover{\A 287:       color: $blue;\A 288:       cursor: pointer;\A 289:     }\A 290: }"; }
