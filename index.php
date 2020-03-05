@@ -1,13 +1,13 @@
 <?php require ('functions.php');?>
 <!doctype html>
-<html lang="be_fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HackersPoulette</title>
-    <link rel="stylesheet" href="assets/stylesheets/style.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="assets/stylesheets/style.css" type="text/css">
     <script src="https://kit.fontawesome.com/c9f22d74f7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
@@ -37,9 +37,8 @@
             <a class="nav-link" href="#">Services</a>
         </li>
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">Informations
-            </a>
+            <a role="button" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Informations            </a>
             <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
             <a class="dropdown-item" href="#">Action</a>
             <a class="dropdown-item" href="#">Another action</a>
@@ -57,6 +56,18 @@
             <a class="nav-link waves-effect waves-light">
             <i class="fab fa-facebook-f"></i>
             </a>
+        </li>
+        <li class="nav-item dropdown">
+            <a role="button" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-user"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right dropdown-default"
+            aria-labelledby="navbarDropdownMenuLink-333">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            </div>
         </li>
         </ul>
     </div>
@@ -83,7 +94,7 @@
         <!-- Cards -->
         <div class="card-deck mr-0">
             <div class="card col-12 col-md-6 col-lg-4" data-toggle="modal" data-target="#Modal1">
-                <img class="card-img-top" src=<?= $decodearray[0]['image'];?> alt=<?= $decodearray[0]['name'];?>>
+                <img class="card-img-top" src=<?= $decodearray[0]['image'];?> alt= "raspbery">
                 <div class="card-body">
                 <h5 class="card-title"><?= $decodearray[0]['name'];?></h5>
                 <p class="card-text"><?= $decodearray[0]['description'];?></p>
@@ -93,7 +104,7 @@
             </div>
             </div>
             <div class="card col-12 col-md-6 col-lg-4" data-toggle="modal" data-target="#Modal2">
-                <img class="card-img-top" src=<?= $decodearray[1]['image'];?> alt=<?= $decodearray[1]['name'];?>>
+                <img class="card-img-top" src=<?= $decodearray[1]['image'];?> alt= "raspbery">
                 <div class="card-body">
                 <h5 class="card-title"><?= $decodearray[1]['name'];?></h5>
                 <p class="card-text"><?= $decodearray[1]['description'];?></p>
@@ -104,7 +115,7 @@
             </div>
 
             <div class="card col-12 col-md-6 col-lg-4" data-toggle="modal" data-target="#Modal3">
-                <img class="card-img-top" src=<?= $decodearray[2]['image'];?> alt=<?= $decodearray[2]['name'];?>>
+                <img class="card-img-top" src=<?= $decodearray[2]['image'];?> alt="raspbery">
                 <div class="card-body">
                 <h5 class="card-title"><?= $decodearray[2]['name'];?></h5>
                 <p class="card-text"><?= $decodearray[2]['description'];?></p>
@@ -119,7 +130,7 @@
 
         <div class="card-deck mr-0">
         <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal4">
-            <img class="card-img-top" src=<?= $decodearray[3]['image'];?> alt=<?= $decodearray[3]['name'];?>>
+            <img class="card-img-top" src=<?= $decodearray[3]['image'];?> alt= "raspbery">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[3]['name'];?></h5>
             <p class="card-text"><?= $decodearray[3]['description'];?></p>
@@ -129,7 +140,7 @@
         </div>
         </div>
         <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal5">
-            <img class="card-img-top" src=<?= $decodearray[4]['image'];?> alt=<?= $decodearray[4]['name'];?>>
+            <img class="card-img-top" src=<?= $decodearray[4]['image'];?> alt= "raspbery">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[4]['name'];?></h5>
             <p class="card-text"><?= $decodearray[4]['description'];?></p>
@@ -140,7 +151,7 @@
         </div>
 
         <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal6">
-            <img class="card-img-top" src=<?= $decodearray[5]['image'];?> alt=<?= $decodearray[5]['name'];?>>
+            <img class="card-img-top" src=<?= $decodearray[5]['image'];?> alt= "raspbery">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[5]['name'];?></h5>
             <p class="card-text"><?= $decodearray[5]['description'];?></p>
@@ -154,7 +165,7 @@
 
 <div class="card-deck mr-0">
         <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal7">
-            <img class="card-img-top" src=<?= $decodearray[6]['image'];?> alt=<?= $decodearray[6]['name'];?>>
+            <img class="card-img-top" src=<?= $decodearray[6]['image'];?> alt= "raspbery">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[6]['name'];?></h5>
             <p class="card-text"><?= $decodearray[6]['description'];?></p>
@@ -164,7 +175,7 @@
         </div>
         </div>
         <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal8">
-            <img class="card-img-top" src=<?= $decodearray[7]['image'];?> alt=<?= $decodearray[7]['name'];?>>
+            <img class="card-img-top" src=<?= $decodearray[7]['image'];?> alt= "raspbery">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[7]['name'];?></h5>
             <p class="card-text"><?= $decodearray[7]['description'];?></p>
@@ -175,7 +186,7 @@
         </div>
 
         <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal9">
-            <img class="card-img-top" src=<?= $decodearray[8]['image'];?> alt=<?= $decodearray[8]['name'];?>>
+            <img class="card-img-top" src=<?= $decodearray[8]['image'];?> alt= "raspbery">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[8]['name'];?></h5>
             <p class="card-text"><?= $decodearray[8]['description'];?></p>
