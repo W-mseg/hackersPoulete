@@ -182,56 +182,61 @@ header, main, footer {
   background-position: center;
 }
 
-/* line 146, ../sass/style.scss */
+/* line 148, ../sass/style.scss */
 .test {
   color: #15c5bd;
 }
-/* line 148, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 .test img {
   float: right;
 }
 
-/* line 153, ../sass/style.scss */
+/* line 155, ../sass/style.scss */
 .card-deck {
   padding-bottom: 30px;
   padding-left: 50px;
   padding-right: 50px;
 }
-
+/* line 161, ../sass/style.scss */
 .card-deck .card:hover {
   border: 1px solid #303030;
   cursor: pointer;
 }
 
-/* line 166, ../sass/style.scss */
+/* line 169, ../sass/style.scss */
 #produits {
   background-color: #15c5bd;
 }
 
-/* line 170, ../sass/style.scss */
+/* line 173, ../sass/style.scss */
 .video {
   text-align: center;
 }
 @media (min-width: 500px) {
-  /* line 174, ../sass/style.scss */
+  /* line 177, ../sass/style.scss */
   .video iframe {
     width: 450px;
   }
 }
 @media (max-width: 500px) {
-  /* line 180, ../sass/style.scss */
+  /* line 183, ../sass/style.scss */
   .video iframe {
     width: 300px;
   }
 }
 @media (max-width: 300px) {
-  /* line 186, ../sass/style.scss */
+  /* line 189, ../sass/style.scss */
   .video iframe {
     width: 150px;
   }
 }
 
-/* line 193, ../sass/style.scss */
+/* line 196, ../sass/style.scss */
+#btntest {
+  background-color: #15c5bd;
+}
+
+/* line 200, ../sass/style.scss */
 #myBtn {
   border-radius: 5px;
   background-color: #15c5bd;
@@ -241,73 +246,73 @@ header, main, footer {
   height: 50px;
   width: 105px;
 }
-/* line 202, ../sass/style.scss */
+/* line 209, ../sass/style.scss */
 #myBtn:hover {
   background-color: #FFF;
   color: #303030;
   border: 2px solid #303030;
 }
 
-/* line 209, ../sass/style.scss */
+/* line 216, ../sass/style.scss */
 #more {
   display: none;
 }
 
-/* line 212, ../sass/style.scss */
+/* line 219, ../sass/style.scss */
 .errorform {
   border: solid rgba(255, 0, 0, 0.81) 0.5px !important;
 }
 
-/* line 215, ../sass/style.scss */
+/* line 222, ../sass/style.scss */
 input {
   border: solid rgba(79, 79, 79, 0.77) 0.5px;
   border-radius: 5px;
 }
 
-/* line 220, ../sass/style.scss */
+/* line 227, ../sass/style.scss */
 footer {
   background-color: #303030;
   color: #FFF;
 }
-/* line 224, ../sass/style.scss */
+/* line 231, ../sass/style.scss */
 footer a {
   color: #FFF;
 }
-/* line 226, ../sass/style.scss */
+/* line 233, ../sass/style.scss */
 footer a:hover {
   color: #15c5bd;
   text-decoration: none;
 }
-/* line 232, ../sass/style.scss */
+/* line 239, ../sass/style.scss */
 footer h5 {
   font-weight: bold;
 }
-/* line 238, ../sass/style.scss */
+/* line 245, ../sass/style.scss */
 footer .list-inline-item:hover {
   color: #15c5bd;
   cursor: pointer;
 }
 
-/* line 245, ../sass/style.scss */
+/* line 252, ../sass/style.scss */
 form {
   border: solid 2px;
   width: 100%;
   padding: 20px;
   background-color: #15c5bd;
 }
-/* line 250, ../sass/style.scss */
+/* line 257, ../sass/style.scss */
 form .firstline {
   display: flex;
   justify-content: center;
   margin: 0 25px;
 }
-/* line 255, ../sass/style.scss */
+/* line 262, ../sass/style.scss */
 form .secondline {
   display: flex;
   justify-content: center;
   margin: 0 25px;
 }
-/* line 260, ../sass/style.scss */
+/* line 267, ../sass/style.scss */
 form button {
   display: flex;
   justify-content: center;
@@ -317,20 +322,20 @@ form button {
   background-color: #FFF;
   border: solid #FFF;
 }
-/* line 269, ../sass/style.scss */
+/* line 276, ../sass/style.scss */
 form input {
   text-align: center;
   min-width: 50px;
   max-width: 250px;
   margin: 0 25px;
 }
-/* line 276, ../sass/style.scss */
+/* line 283, ../sass/style.scss */
 form select {
   margin: 0 25px;
   border-radius: 5px;
 }
 
-/* line 283, ../sass/style.scss */
+/* line 290, ../sass/style.scss */
 body, html {
   scroll-behavior: smooth;
 }
