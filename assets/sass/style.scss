@@ -137,12 +137,22 @@ $dropDown       : false;
     }
 
   .jumbotron {
+
+    @media(min-width:350px){
     margin-bottom: 0px;
     height: 500px;
     color: $blue;
     background-size: cover;
     background-position: center;
+    }
 
+    @media(max-width: 350px){
+      margin-bottom: 0px;
+      height: 800px;
+      color: $blue;
+      background-size: cover;
+      background-position: center;
+    }
 }
 
 .test{
@@ -290,5 +300,11 @@ footer{
       color: $blue;
       cursor: pointer;
     }
+  }
 }
+
+#arrowup{
+  @media(max-width:350px){
+    display: none;
+  }
 }

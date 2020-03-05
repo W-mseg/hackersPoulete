@@ -162,12 +162,24 @@ header, main, footer {
   }
 }
 
-.jumbotron {
-  margin-bottom: 0px;
-  height: 500px;
-  color: #15c5bd;
-  background-size: cover;
-  background-position: center;
+@media (min-width: 350px) {
+  .jumbotron {
+    margin-bottom: 0px;
+    height: 500px;
+    color: #15c5bd;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media (max-width: 350px) {
+  .jumbotron {
+    margin-bottom: 0px;
+    height: 800px;
+    color: #15c5bd;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 .test {
@@ -329,5 +341,11 @@ footer h5 {
 footer .list-inline-item:hover {
   color: #15c5bd;
   cursor: pointer;
+}
+
+@media (max-width: 350px) {
+  #arrowup {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
