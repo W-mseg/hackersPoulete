@@ -12,6 +12,7 @@ setter('subject');
 setter('name');
 setter('lastname');
 setter('e-mail');
+setter("monpays");
 
 //filter all var
 
@@ -49,11 +50,19 @@ function subjectvalide($selector){
         return 'selected=\'selected\'';
     }
 }
+
+$postpays = $_POST['monpays'];
+function countryvalide($selector){
+    if(($selector === $GLOBALS['postpays']) && ($selector === "Belgique" || $selector === "Allemagne" || $selector === "Îles Saint-Paul et Nouvelle-Amsterdam")){
+        return 'selected=\'selected\'';
+    }
+}
+
 ini_set('SMTP', "server.com");
 ini_set('smtp_port', "25");
 ini_set('sendmail_from', "marco.segretario2705@gmail.com");
 
-$messageall = $GLOBALS['postname']." ".$GLOBALS['postlastname']." ".$GLOBALS['postemail']." ".$GLOBALS['postgender']." ".$GLOBALS['postsubject'];
+$messageall = $GLOBALS['postname']." ".$GLOBALS['postlastname']." ".$GLOBALS['postemail']." ".$GLOBALS['postgender']." ".$GLOBALS['postsubject']." ".$GLOBALS['postpays'];
        $mailing= mail($GLOBALS['postemail'],$GLOBALS['postsubject'],$GLOBALS['messageall'],'From: tucrackerapascesite@hackerspoulete.com');
 
 function actionform()
