@@ -13,11 +13,13 @@ setter('name');
 setter('lastname');
 setter('e-mail');
 setter("monpays");
+setter("text");
 
 //filter all var
 
 $postname =trim(preg_replace('/[\s,\d]/', '', filter_var($_POST['name'], FILTER_SANITIZE_STRING)));
 $postlastname =trim(preg_replace('/[\s,\d]/', '', filter_var($_POST['lastname'], FILTER_SANITIZE_STRING)));
+$posttext =trim(preg_replace('/[\s,\d]/', '', filter_var($_POST['text'], FILTER_SANITIZE_STRING)));
 $postemail =trim(preg_replace('/[\s]/', '', filter_var($_POST['e-mail'], FILTER_SANITIZE_STRING)));
 $validemail = filter_var($postemail, FILTER_VALIDATE_EMAIL);
 
@@ -62,7 +64,7 @@ ini_set('SMTP', "server.com");
 ini_set('smtp_port', "25");
 ini_set('sendmail_from', "marco.segretario2705@gmail.com");
 
-$messageall = $GLOBALS['postname']." ".$GLOBALS['postlastname']." ".$GLOBALS['postemail']." ".$GLOBALS['postgender']." ".$GLOBALS['postsubject']." ".$GLOBALS['postpays'];
+$messageall = $GLOBALS['postname']." ".$GLOBALS['postlastname']." ".$GLOBALS['postemail']." ".$GLOBALS['postgender']." ".$GLOBALS['postsubject']." ".$GLOBALS['postpays']." ".$GLOBALS['posttext'];
        $mailing= mail($GLOBALS['postemail'],$GLOBALS['postsubject'],$GLOBALS['messageall'],'From: tucrackerapascesite@hackerspoulete.com');
 
 function actionform()
