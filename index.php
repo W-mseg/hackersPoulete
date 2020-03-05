@@ -477,7 +477,7 @@
                     Square des Martyrs<br/>
                     6000 CHARLEROI<br/>
                     BELGIQUE<br/>
-                    Tel : +00 000 00 00 00
+                    Tel : +00 000 00 00
                 </p>
             </li>
             <li>

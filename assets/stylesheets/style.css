@@ -206,10 +206,12 @@ header, main, footer {
 input {
   border: solid rgba(79, 79, 79, 0.77) 0.5px;
   border-radius: 5px;
+  width: 185px;
+  height: 40px;
 }
 
 form {
-  border: solid 2px;
+  border: solid 2px #303030;
   width: 100%;
   padding: 20px;
   background-color: #15c5bd;
@@ -233,6 +235,21 @@ form .secondline {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0 25px;
+}
+
+form textarea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: #FFF;
+  border: solid #FFF;
 }
 
 form button {
@@ -259,6 +276,7 @@ form input {
 form select {
   margin: 0 25px;
   border-radius: 5px;
+  height: 40px;
 }
 
 body, html {
