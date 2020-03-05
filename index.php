@@ -37,7 +37,7 @@
         </li>
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">Dropdown
+            aria-haspopup="true" aria-expanded="false">Informations
             </a>
             <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
             <a class="dropdown-item" href="#">Action</a>
@@ -77,10 +77,8 @@
     <div class="text-white text-center py-5 px-4">
     <div>
         <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Hackers Poulette</strong></h2>
-        <p class="mx-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
-        optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed qui, dolorum!
-        </p>
-        <a class="btn btn-outline-white btn-md"><i class="fas fa-clone left"></i> View project</a>
+        <p class="mx-5 mb-5">Basé en Belgique à Charleroi, l'entreprise Hackers Poulette a été créée en 2020 par Yassine BOUKAMIR et Marco SEGRETARIO, elle est devenue au fil des années un acteur majeur dans le commerce de solutions électroniques.</p>
+        <a class="btn btn-outline-white btn-md"><b>Plus d'infos</b></a>
     </div>
     </div>
     </div>
@@ -222,7 +220,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
                 </div>
             </div>
             </div>
@@ -243,7 +241,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
                 </div>
             </div>
             </div>
@@ -264,7 +262,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
                 </div>
             </div>
             </div>
@@ -285,7 +283,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
                 </div>
             </div>
             </div>
@@ -306,7 +304,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
                 </div>
             </div>
             </div>
@@ -327,7 +325,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
                 </div>
             </div>
             </div>
@@ -348,7 +346,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
                 </div>
             </div>
             </div>
@@ -369,7 +367,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
                 </div>
             </div>
             </div>
@@ -390,7 +388,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
                 </div>
             </div>
             </div>
