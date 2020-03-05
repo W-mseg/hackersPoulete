@@ -475,9 +475,6 @@
             <li>
                 <a href="#!">Link 4</a>
             </li>
-            <li>
-                <img style="width: 200px;" class="text-md-left" src="assets/poulet.png" alt="logo Hackers-Poulette"/>
-            </li>
             </ul>
 
         </div>
