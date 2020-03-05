@@ -211,10 +211,10 @@ input {
 }
 
 form {
-  border: solid 2px #303030;
   width: 100%;
   padding: 20px;
   background-color: #15c5bd;
+  padding-bottom: 35px;
 }
 
 form .firstline {
