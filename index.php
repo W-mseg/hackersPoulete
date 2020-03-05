@@ -383,6 +383,7 @@
         </div>
 
         <section id="contact">
+            <h2 style="text-align: center">Contact</h2>
         <?php require ('formulaire.php'); ?>
             <pre>
                 <?php
