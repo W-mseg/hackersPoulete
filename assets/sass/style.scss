@@ -173,22 +173,24 @@ $dropDown       : false;
 .video{
   text-align: center;
 
-  @media(min-width:500px){
+  @media(min-width:550px){
     iframe{
       width: 450px;
-      height: 100px;
+      height: 315px;
     }
   }
 
-  @media(max-width:500px){
+  @media(max-width:550px){
     iframe{
       width: 300px;
+      height: 275px;
     }
   }
 
-  @media(max-width:300px){
+  @media(max-width:350px){
     iframe{
       width: 150px;
+      height: 100px;
     }
   }  
 
@@ -277,6 +279,7 @@ footer{
       color:$blue;
       text-decoration: none;
     }
+  }
 
   h5{
     font-weight: bold;
@@ -287,4 +290,5 @@ footer{
       color: $blue;
       cursor: pointer;
     }
+}
 }
