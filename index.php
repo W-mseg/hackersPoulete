@@ -26,7 +26,7 @@
         <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
             <a class="nav-link" href="#">Accueil
-            <span class="sr-only">(current)</span>
+            <span class="sr-only"></span>
             </a>
         </li>
         <li class="nav-item">
@@ -73,7 +73,7 @@
     </div>
     </nav>
 
-    <div class="jumbotron card card-image" style="background-image: url(assets/raspberry1.jpg);">
+    <div class="jumbotron card card-image rounded-0 mb-0" style="background-image: url(assets/raspberry1.jpg);">
     <div class="text-white text-center py-5 px-4">
     <div>
         <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Hackers Poulette</strong></h2>
@@ -89,7 +89,7 @@
 
     <main>
         
-        <section id="produits" class="pb-4">
+        <section id="produits" class="pb-4 mt-0">
 
         <h2 class="text-center pb-3 pt-3 text-white">Nos produits</h2>
         
