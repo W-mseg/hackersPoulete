@@ -32,6 +32,7 @@
     </div>
     <input type="hidden" name="pays">
     <input type="hidden" name="country">
+    <textarea name="text" id="text" cols="50" rows="5" ><?= emptying($posttext) ?></textarea>
     <br>
     <button type="submit" id="button">Submit</button>
 
