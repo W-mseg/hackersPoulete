@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
         <meta name="viewport"
-              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HackersPoulette</title>
     <link rel="stylesheet" href="assets/stylesheets/style.css" type="text/css">
@@ -71,7 +71,7 @@
     <div>
         <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Hackers Poulette</strong></h2>
         <p class="mx-5 mb-5">Basé en Belgique à Charleroi, l'entreprise Hackers Poulette a été créée en 2020 par Yassine BOUKAMIR et Marco SEGRETARIO, elle est devenue au fil des années un acteur majeur dans le commerce de solutions électroniques.</p>
-        <a class="btn btn-outline-white btn-md"><b>Plus d'infos</b></a>
+        <button class="btn btn-outline-white btn-md"><b>Plus d'infos</b></button>
     </div>
     </div>
     </div>
@@ -415,7 +415,7 @@
         <div class="col-md-4 mx-auto">
 
             <!-- Content -->
-            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Hackers-Poulette</h5>
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Hackers Poulette</h5>
             <p>La société Hackers Poulette ™ vend des kits et accessoires pour Raspberry Pi à monter soi-même.</p>
 
         </div>
@@ -470,13 +470,15 @@
 
             <!-- Links -->
             <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contact</h5>
-
             <ul class="list-unstyled">
             <li>
-                <a href="#!">Link 2</a>
-            </li>
-            <li>
-                <a href="#!">Link 3</a>
+                <p>
+                    HACKERS-POULETTE<br/>
+                    Square des Martyrs<br/>
+                    6000 CHARLEROI<br/>
+                    BELGIQUE<br/>
+                    Tel : +00 000 00 00 00
+                </p>
             </li>
             <li>
                 <a href="#contact">Contactez-nous</a>

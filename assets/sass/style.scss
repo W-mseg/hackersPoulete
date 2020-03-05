@@ -15,11 +15,12 @@ header, main, footer{
 }
 
 /*NavBar*/
-$bgDefault      : #15c5bd;
-$bgHighlight    : #15c5bd;
-$colDefault     : #ffffff;
-$colHighlight   : #303030;
+$bgDefault      : $blue;
+$bgHighlight    : $blue;
+$colDefault     : $white;
+$colHighlight   : $black;
 $dropDown       : false;
+
 .navbar {
   background-color: $bgDefault;
   .navbar-brand {
@@ -68,50 +69,6 @@ $dropDown       : false;
     color: $colDefault;
     &:hover {
       color: $colHighlight; }}}
-@media (max-width: 575px) {
-  .navbar-expend-sm .navbar-nav .show .dropdown-menu {
-    .dropdown-item {
-      color: $colDefault;
-      &:hover, &:focus {
-        color: $colHighlight; }}
-    .dropdown-item.active {
-      color: $colHighlight;
-      background-color: $bgHighlight; }}}
-@media (max-width: 767px) {
-  .navbar-expend-md .navbar-nav .show .dropdown-menu {
-    .dropdown-item {
-      color: $colDefault;
-      &:hover, &:focus {
-        color: $colHighlight; }}
-    .dropdown-item.active {
-      color: $colHighlight;
-      background-color: $bgHighlight; }}}
-@media (max-width: 991px) {
-  .navbar-expend-lg .navbar-nav .show .dropdown-menu {
-    .dropdown-item {
-      color: $colDefault;
-      &:hover, &:focus {
-        color: $colHighlight; }}
-    .dropdown-item.active {
-      color: $colHighlight;
-      background-color: $bgHighlight; }}}
-@media (max-width: 1199px) {
-  .navbar-expend-xl .navbar-nav .show .dropdown-menu {
-    .dropdown-item {
-      color: $colDefault;
-      &:hover, &:focus {
-        color: $colHighlight; }}
-    .dropdown-item.active {
-      color: $colHighlight;
-      background-color: $bgHighlight; }}}
-.navbar-expend .navbar-nav .show .dropdown-menu {
-  .dropdown-item {
-    color: $colDefault;
-    &:hover, &:focus {
-      color: $colHighlight; }}
-  .dropdown-item.active {
-    color: $colHighlight;
-    background-color: $bgHighlight; }}
 
     /*Carousel*/
     #carousel{
@@ -152,6 +109,16 @@ $dropDown       : false;
       color: $blue;
       background-size: cover;
       background-position: center;
+    }
+
+    button{
+      border-radius: 5px;
+      background-color: $black;
+      color: white;
+
+      &:hover{
+        background-color: $blue;
+      }
     }
 }
 
