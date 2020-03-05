@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HackersPoulette</title>
     <link rel="stylesheet" href="assets/stylesheets/style.css" type="text/css" charset="utf-8">
+    <script src="https://kit.fontawesome.com/c9f22d74f7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
@@ -402,10 +403,12 @@
             ?>
         </pre>
 
+
     </main>
 
     <!-- Footer -->
     <footer class="page-footer font-small stylish-color-dark pt-4">
+
 
     <!-- Footer Links -->
     <div class="container text-center text-md-left">
@@ -527,6 +530,7 @@
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
         <a href="#"> Hackers-Poulette.com</a>
     </div>
+        <a href="#" id="arrowup" style="position: fixed;bottom: 0px;right:10px;color: white;font-size: 50px"><i class="fas fa-arrow-up"></i></a>
     </footer>
 
     <script src="assets/JS/script.js"></script>

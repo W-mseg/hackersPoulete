@@ -329,3 +329,8 @@ form select {
   margin: 0 25px;
   border-radius: 5px;
 }
+
+/* line 283, ../sass/style.scss */
+body, html {
+  scroll-behavior: smooth;
+}
