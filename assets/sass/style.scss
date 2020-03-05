@@ -176,6 +176,7 @@ $dropDown       : false;
   @media(min-width:500px){
     iframe{
       width: 450px;
+      height: 100px;
     }
   }
 
@@ -224,31 +225,6 @@ input{
   border-radius: 5px;
 }
 
-footer{
-  background-color: $black;
-  color: $white;
-
-  a{
-    color:$white;
-    &:hover{
-      color:$blue;
-      text-decoration: none;
-    }
-  }
-
-  h5{
-    font-weight: bold;
-  }
-
-
-  .list-inline-item{
-    &:hover{
-      color: $blue;
-      cursor: pointer;
-    }
-
-}
-}
 form{
 border: solid 2px;
   width: 100%;
@@ -291,3 +267,24 @@ body,html{
   scroll-behavior: smooth;
 }
 
+footer{
+  background-color: $black;
+  color: $white;
+
+  a{
+    color:$white;
+    &:hover{
+      color:$blue;
+      text-decoration: none;
+    }
+
+  h5{
+    font-weight: bold;
+  }
+
+  .list-inline-item{
+    &:hover{
+      color: $blue;
+      cursor: pointer;
+    }
+}

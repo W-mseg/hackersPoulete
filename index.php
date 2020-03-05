@@ -383,13 +383,15 @@
             </div>
         </div>
 
-    <?php require ('formulaire.php'); ?>
-        <pre>
-            <?php
-            print_r($GLOBALS['postname']." ".$GLOBALS['postlastname']." ".$GLOBALS['postemail']." ".$GLOBALS['postgender']." ".$GLOBALS['postsubject']);
-            echo " ".actionform()
-            ?>
-        </pre>
+        <section id="contact">
+        <?php require ('formulaire.php'); ?>
+            <pre>
+                <?php
+                print_r($GLOBALS['postname']." ".$GLOBALS['postlastname']." ".$GLOBALS['postemail']." ".$GLOBALS['postgender']." ".$GLOBALS['postsubject']);
+                echo " ".actionform()
+                ?>
+            </pre>
+        </section>
 
 
     </main>
@@ -432,11 +434,9 @@
             </ul>
 
         </div>
-        <!-- Grid column -->
 
         <hr class="clearfix w-100 d-md-none">
 
-        <!-- Grid column -->
         <div class="col-md-2 mx-auto">
 
             <!-- Links -->
@@ -458,20 +458,15 @@
             </ul>
 
         </div>
-        <!-- Grid column -->
 
         <hr class="clearfix w-100 d-md-none">
 
-        <!-- Grid column -->
         <div class="col-md-2 mx-auto">
 
             <!-- Links -->
             <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contact</h5>
 
             <ul class="list-unstyled">
-            <li>
-                <a href="#!">Link 1</a>
-            </li>
             <li>
                 <a href="#!">Link 2</a>
             </li>
@@ -481,6 +476,9 @@
             <li>
                 <a href="#!">Link 4</a>
             </li>
+            <li>
+                <img style="width: 200px;" class="text-md-left" src="assets/poulet.png" alt="logo Hackers-Poulette"/>
+            </li>
             </ul>
 
         </div>
@@ -489,7 +487,7 @@
 
     <hr>
 
-    <!-- Social buttons -->
+    <!-- Réseaux Sociaux -->
     <ul class="list-unstyled list-inline text-center">
         <li class="list-inline-item">
         <a class="btn-floating btn-fb mx-1">
