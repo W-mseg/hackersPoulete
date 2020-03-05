@@ -24,6 +24,11 @@
         <option value="Achats" <?= subjectvalide('Achats') ?>>Achats</option>
         <option value="Autres" <?= subjectvalide('Autres') ?>>Autres</option>
     </select>
+        <select name="monpays" id="option">
+            <option value="Belgique" <?= countryvalide('Belgique') ?>>Belgique</option>
+            <option value="Allemagne"  <?= countryvalide('Allemagne') ?>>Allemagne</option>
+            <option value="Îles Saint-Paul et Nouvelle-Amsterdam"  <?= countryvalide('Îles Saint-Paul et Nouvelle-Amsterdam') ?>>Îles Saint-Paul et Nouvelle-Amsterdam</option>
+        </select>
     </div>
     <input type="hidden" name="pays">
     <input type="hidden" name="country">
