@@ -230,10 +230,13 @@ input {
   height: 40px;
 }
 
+#contact {
+  background-color: #15c5bd;
+}
+
 form {
   width: 100%;
   padding: 20px;
-  background-color: #15c5bd;
   padding-bottom: 35px;
 }
 

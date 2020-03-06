@@ -430,29 +430,23 @@
     <!-- Footer -->
     <footer class="page-footer font-small stylish-color-dark pt-4">
 
-
-    <!-- Footer Links -->
     <div class="container text-center text-md-left">
 
-        <!-- Grid row -->
         <div class="row">
 
-        <!-- Grid column -->
         <div class="col-md-4 mx-auto">
 
-            <!-- Content -->
+            <!-- Texte -->
             <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Hackers Poulette</h5>
             <p>La société Hackers Poulette ™ vend des kits et accessoires pour Raspberry Pi à monter soi-même.</p>
 
         </div>
-        <!-- Grid column -->
 
         <hr class="clearfix w-100 d-md-none">
 
-        <!-- Grid column -->
         <div class="col-md-2 mx-auto">
 
-            <!-- Links -->
+            <!-- Footer Liens -->
             <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Liens</h5>
 
             <ul class="list-unstyled">
@@ -470,7 +464,7 @@
 
         <div class="col-md-2 mx-auto">
 
-            <!-- Links -->
+            <!-- Footer Info -->
             <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Informations</h5>
 
             <ul class="list-unstyled">
@@ -491,7 +485,7 @@
 
         <div class="col-md-2 mx-auto">
 
-            <!-- Links -->
+            <!-- Footer Contact -->
             <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contact</h5>
             <ul class="list-unstyled">
             <li>
@@ -537,6 +531,7 @@
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
         <a href="#"> Hackers-Poulette.com</a>
     </div>
+
     <!-- Flèche -->
         <a href="#" id="arrowup" style="position: fixed;bottom: 0px;right:10px;color: white;font-size: 50px"><i class="fas fa-arrow-up"></i></a>
     </footer>
