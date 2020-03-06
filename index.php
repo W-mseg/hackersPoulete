@@ -537,6 +537,7 @@
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
         <a href="#"> Hackers-Poulette.com</a>
     </div>
+    <!-- Flèche -->
         <a href="#" id="arrowup" style="position: fixed;bottom: 0px;right:10px;color: white;font-size: 50px"><i class="fas fa-arrow-up"></i></a>
     </footer>
 
