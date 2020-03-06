@@ -8,7 +8,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HackersPoulette</title>
     <link rel="stylesheet" href="assets/stylesheets/style.css" type="text/css">
-    <script src="https://kit.fontawesome.com/c9f22d74f7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
@@ -67,10 +66,10 @@
     </nav>
 
     <div class="jumbotron card card-image rounded-0 mb-0" style="background-image: url(assets/raspberry1.jpg);">
-    <div class="text-white text-center py-5 px-4">
+        <div class="text-white text-center py-5 px-4">
     <div>
         <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Hackers Poulette</strong></h2>
-        <p class="mx-5 mb-5">Basé en Belgique à Charleroi, l'entreprise Hackers Poulette a été créée en 2020 par Yassine BOUKAMIR et Marco SEGRETARIO, elle est devenue au fil des années un acteur majeur dans le commerce de solutions électroniques.</p>
+        <p class="mx-5 mb-5"><b>Basé en Belgique à Charleroi, l'entreprise Hackers Poulette a été créée en 2020 par Yassine BOUKAMIR et Marco SEGRETARIO, elle est devenue très vite un acteur majeur dans le commerce de solutions électroniques.</b></p>
         <button class="btn btn-outline-white btn-md"><a href="#informations"><b>Plus d'infos</b></a></button>
     </div>
     </div>
