@@ -40,7 +40,7 @@
             <a role="button" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">Informations            </a>
             <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Qui sommes-nous ?</a>
             <a class="dropdown-item" href="#">Another action</a>
             <a class="dropdown-item" href="#">Something else here</a>
             </div>
@@ -87,7 +87,7 @@
         <!-- Cards -->
         <div class="card-deck mr-0">
             <div class="card col-12 col-md-6 col-lg-4" data-toggle="modal" data-target="#Modal1">
-                <img class="card-img-top" src=<?= $decodearray[0]['image'];?> alt= "raspbery">
+                <img class="card-img-top" src=<?= $decodearray[0]['image'];?> alt= "raspberry">
                 <div class="card-body">
                 <h5 class="card-title"><?= $decodearray[0]['name'];?></h5>
                 <p class="card-text"><?= $decodearray[0]['description'];?></p>
@@ -97,7 +97,7 @@
             </div>
             </div>
             <div class="card col-12 col-md-6 col-lg-4" data-toggle="modal" data-target="#Modal2">
-                <img class="card-img-top" src=<?= $decodearray[1]['image'];?> alt= "raspbery">
+                <img class="card-img-top" src=<?= $decodearray[1]['image'];?> alt= "raspberry">
                 <div class="card-body">
                 <h5 class="card-title"><?= $decodearray[1]['name'];?></h5>
                 <p class="card-text"><?= $decodearray[1]['description'];?></p>
@@ -108,7 +108,7 @@
             </div>
 
             <div class="card col-12 col-md-6 col-lg-4" data-toggle="modal" data-target="#Modal3">
-                <img class="card-img-top" src=<?= $decodearray[2]['image'];?> alt="raspbery">
+                <img class="card-img-top" src=<?= $decodearray[2]['image'];?> alt="raspberry">
                 <div class="card-body">
                 <h5 class="card-title"><?= $decodearray[2]['name'];?></h5>
                 <p class="card-text"><?= $decodearray[2]['description'];?></p>
@@ -123,7 +123,7 @@
 
         <div class="card-deck mr-0">
         <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal4">
-            <img class="card-img-top" src=<?= $decodearray[3]['image'];?> alt= "raspbery">
+            <img class="card-img-top" src=<?= $decodearray[3]['image'];?> alt= "raspberry">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[3]['name'];?></h5>
             <p class="card-text"><?= $decodearray[3]['description'];?></p>
@@ -133,7 +133,7 @@
         </div>
         </div>
         <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal5">
-            <img class="card-img-top" src=<?= $decodearray[4]['image'];?> alt= "raspbery">
+            <img class="card-img-top" src=<?= $decodearray[4]['image'];?> alt= "raspberry">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[4]['name'];?></h5>
             <p class="card-text"><?= $decodearray[4]['description'];?></p>
@@ -144,7 +144,7 @@
         </div>
 
         <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal6">
-            <img class="card-img-top" src=<?= $decodearray[5]['image'];?> alt= "raspbery">
+            <img class="card-img-top" src=<?= $decodearray[5]['image'];?> alt= "raspberry">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[5]['name'];?></h5>
             <p class="card-text"><?= $decodearray[5]['description'];?></p>
@@ -158,7 +158,7 @@
 
 <div class="card-deck mr-0">
         <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal7">
-            <img class="card-img-top" src=<?= $decodearray[6]['image'];?> alt= "raspbery">
+            <img class="card-img-top" src=<?= $decodearray[6]['image'];?> alt= "raspberry">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[6]['name'];?></h5>
             <p class="card-text"><?= $decodearray[6]['description'];?></p>
@@ -168,7 +168,7 @@
         </div>
         </div>
         <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal8">
-            <img class="card-img-top" src=<?= $decodearray[7]['image'];?> alt= "raspbery">
+            <img class="card-img-top" src=<?= $decodearray[7]['image'];?> alt= "raspberry">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[7]['name'];?></h5>
             <p class="card-text"><?= $decodearray[7]['description'];?></p>
@@ -179,7 +179,7 @@
         </div>
 
         <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal9">
-            <img class="card-img-top" src=<?= $decodearray[8]['image'];?> alt= "raspbery">
+            <img class="card-img-top" src=<?= $decodearray[8]['image'];?> alt= "raspberry">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[8]['name'];?></h5>
             <p class="card-text"><?= $decodearray[8]['description'];?></p>
@@ -387,6 +387,34 @@
             </div>
         </div>
 
+        <!--Informations-->
+        <section id="informations">
+            <div class="container">
+                <div class="row">
+                    <section class="col-12 col-lg-4 ">
+                        <div class="box">
+                            <i class="fab fa-facebook-f"> </i>
+                            <h3>Lorem Ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae ligula a nunc porta fringilla. Vestibulum nibh nulla, bibendum nec scelerisque in, tristique vel ipsum.</p></div>
+                    </section>
+                    <section class="col-12 col-lg-4">
+                        <div class="box">
+                            <i class="fab fa-facebook-f"> </i>
+                            <h3>Lorem Ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae ligula a nunc porta fringilla. Vestibulum nibh nulla, bibendum nec scelerisque in, tristique vel ipsum.</p></div>
+                    </section>
+                    <section class="col-12 col-lg-4">
+                        <div class="box">
+                            <i class="fab fa-facebook-f"> </i>
+                            <h3>Lorem Ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae ligula a nunc porta fringilla. Vestibulum nibh nulla, bibendum nec scelerisque in, tristique vel ipsum.</p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+        
+        <!--Contact-->
         <section id="contact">
             <h2 style="text-align: center">Contact</h2>
         <?php require ('formulaire.php'); ?>
@@ -397,7 +425,6 @@
                 ?>
             </pre>
         </section>
-
 
     </main>
 

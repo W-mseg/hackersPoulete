@@ -36,6 +36,7 @@ header, main, footer {
 }
 
 .navbar .navbar-nav .nav-link {
+  cursor: pointer;
   color: #FFF;
   border-radius: .25rem;
   margin: 0 0.25em;
@@ -321,5 +322,21 @@ footer .list-inline-item:hover {
   #arrowup {
     display: none;
   }
+}
+
+/* Informations */
+#informations {
+  padding: 5em 0 3em 0;
+  background-color: #FFF;
+}
+
+/* Box */
+.box {
+  text-align: center;
+}
+
+.box.post.image {
+  width: 30%;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
