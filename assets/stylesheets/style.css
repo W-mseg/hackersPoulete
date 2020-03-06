@@ -76,13 +76,6 @@ header, main, footer {
   color: #303030;
 }
 
-/*Carousel*/
-#carousel img {
-  background-size: cover;
-  height: 600px;
-  width: 300px;
-}
-
 /*Jumbotron*/
 @media (min-width: 500px) {
   .fond {
@@ -126,6 +119,15 @@ header, main, footer {
 
 .jumbotron button:hover {
   background-color: #15c5bd;
+}
+
+.jumbotron button a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.jumbotron button a:hover {
+  color: #303030;
 }
 
 .test {
@@ -176,10 +178,6 @@ header, main, footer {
   }
 }
 
-#btntest {
-  background-color: #15c5bd;
-}
-
 #myBtn {
   border-radius: 5px;
   background-color: #15c5bd;
@@ -200,6 +198,22 @@ header, main, footer {
   display: none;
 }
 
+/*Informations*/
+#informations {
+  padding: 5em 0 3em 0;
+  background-color: #FFF;
+}
+
+#informations .box {
+  text-align: center;
+}
+
+#informations .box.post.image {
+  width: 30%;
+  margin: 0;
+}
+
+/*Contact*/
 .errorform {
   border: solid rgba(255, 0, 0, 0.81) 0.5px !important;
 }
@@ -322,21 +336,5 @@ footer .list-inline-item:hover {
   #arrowup {
     display: none;
   }
-}
-
-/* Informations */
-#informations {
-  padding: 5em 0 3em 0;
-  background-color: #FFF;
-}
-
-/* Box */
-.box {
-  text-align: center;
-}
-
-.box.post.image {
-  width: 30%;
-  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */

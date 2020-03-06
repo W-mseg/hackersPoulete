@@ -40,9 +40,9 @@
             <a role="button" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">Informations            </a>
             <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-            <a class="dropdown-item" href="#">Qui sommes-nous ?</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="#informations">Qui sommes-nous ?</a>
+            <a class="dropdown-item" href="#informations">Another action</a>
+            <a class="dropdown-item" href="#informations">Something else here</a>
             </div>
         </li>
         </ul>
@@ -71,7 +71,7 @@
     <div>
         <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Hackers Poulette</strong></h2>
         <p class="mx-5 mb-5">Basé en Belgique à Charleroi, l'entreprise Hackers Poulette a été créée en 2020 par Yassine BOUKAMIR et Marco SEGRETARIO, elle est devenue au fil des années un acteur majeur dans le commerce de solutions électroniques.</p>
-        <button class="btn btn-outline-white btn-md"><b>Plus d'infos</b></button>
+        <button class="btn btn-outline-white btn-md"><a href="#informations"><b>Plus d'infos</b></a></button>
     </div>
     </div>
     </div>
@@ -476,16 +476,13 @@
 
             <ul class="list-unstyled">
             <li>
-                <a href="#!">Qui sommes-nous ?</a>
+                <a href="#informations">Qui sommes-nous ?</a>
             </li>
             <li>
-                <a href="#!">Link 2</a>
+                <a href="#informations">Link 2</a>
             </li>
             <li>
-                <a href="#!">Link 3</a>
-            </li>
-            <li>
-                <a href="#!">Link 4</a>
+                <a href="#informations">Link 3</a>
             </li>
             </ul>
 

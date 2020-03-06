@@ -71,28 +71,20 @@ $dropDown       : false;
     &:hover {
       color: $colHighlight; }}}
 
-    /*Carousel*/
-    #carousel{
-      img{
-        background-size: cover;
-        height:600px;
-        width: 300px;
-      }
-    }
-    /*Jumbotron*/
-    @media(min-width:500px){
-      .fond {
-        background-image: url("../poulet.png");
-        background-repeat: no-repeat;
-        background-position: right;
-        position: absolute;
-        width: 100%;
-        height: 300px;
-        top:3em;
-        left:0;
-        z-index: 1 !important;
-      }
-    }
+/*Jumbotron*/
+@media(min-width:500px){
+  .fond {
+    background-image: url("../poulet.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    top:3em;
+    left:0;
+    z-index: 1 !important;
+  }
+}
     
   .jumbotron {
 
@@ -119,6 +111,15 @@ $dropDown       : false;
 
       &:hover{
         background-color: $blue;
+      }
+
+      a{
+        text-decoration: none;
+        color: $white;
+
+        &:hover{
+          color: $black;
+        }
       }
     }
 }
@@ -174,10 +175,6 @@ $dropDown       : false;
 
 }
 
-#btntest{
-  background-color: $blue;
-}
-
 #myBtn{
   border-radius: 5px;
   background-color: $blue;
@@ -197,9 +194,29 @@ $dropDown       : false;
 #more {
   display: none;
 }
+
+/*Informations*/
+
+#informations {
+  padding: 5em 0 3em 0;
+  background-color: $white;
+
+	.box{
+		text-align: center;
+	}
+
+		.box.post.image {
+			width: 30%;
+			margin: 0;
+    }   
+}
+
+/*Contact*/
+
 .errorform{
   border: solid rgba(255, 0, 0, 0.81) 0.5px !important;
 }
+
 input{
   border: solid rgba(79, 79, 79, 0.77) 0.5px;
   border-radius: 5px;
@@ -301,21 +318,3 @@ footer{
     display: none;
   }
 }
-
-/* Informations */
-
-#informations {
-  padding: 5em 0 3em 0;
-  background-color: $white;
-}
-
-/* Box */
-
-	.box{
-		text-align: center;
-	}
-
-		.box.post.image {
-			width: 30%;
-			margin: 0;
-		}
