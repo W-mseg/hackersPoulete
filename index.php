@@ -66,7 +66,7 @@
 
     </nav>
 
-    <div class="jumbotron card card-image rounded-0 mb-0" style="background-image: url(assets/raspberry1.jpg);">
+    <div class="jumbotron card card-image rounded-0 mb-0" style="background-image: url(assets/jumbo-rasp.jpg);">
     <div class="text-white text-center py-5 px-4">
     <div>
         <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Hackers Poulette</strong></h2>
@@ -393,8 +393,8 @@
         <div id="carousel" class="carousel slide carousel-multi-item" data-ride="carousel">
 
         <div class="controls-top text-center">
-            <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
-            <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+            <a class="btn-floating" href="" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+            <a class="btn-floating" href="" data-slide="next"><i class="fas fa-chevron-right"></i></a>
         </div>
 
         <div class="carousel-inner" role="listbox">

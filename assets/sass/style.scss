@@ -85,12 +85,8 @@ $dropDown       : false;
     z-index: 1 !important;
   }
 }
-    
-  .jumbotron {
 
-    .card-image{
-        filter: brightness(50%);
-        }
+  .jumbotron {
 
     @media(min-width:450px){
     margin-bottom: 0px;
