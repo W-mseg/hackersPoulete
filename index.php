@@ -70,7 +70,8 @@
     <div class="text-white text-center py-5 px-4">
     <div>
         <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Hackers Poulette</strong></h2>
-        <p class="mx-5 mb-5"><b>Basé en Belgique à Charleroi, l'entreprise Hackers Poulette a été créée en 2020 par Yassine BOUKAMIR et Marco SEGRETARIO, elle est devenue très vite un acteur majeur dans le commerce de solutions électroniques.</b></p>
+        <p class="mx-5 mb-3"><b>Basé en Belgique à Charleroi, l'entreprise Hackers Poulette a été créée en 2020 par Yassine BOUKAMIR et Marco SEGRETARIO, elle est devenue très vite un acteur majeur dans le commerce de solutions électroniques.</b></p>
+        <p class="mx-5 mb-5">Découvrez notre gamme d'ordinateurs miniatures !</p>
         <button class="btn btn-outline-white btn-md"><a href="#informations"><b>Plus d'infos</b></a></button>
     </div>
     </div>
@@ -406,8 +407,7 @@
             <div class="col-md-4">
             <div class="card mb-2">
                 <img class="card-img-top"
-                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
-                alt="Card image cap">
+                src="assets/raspberry1.jpg" alt="raspberry">
                 <div class="card-body">
                     <h4 class="card-title">Garantie</h4>
                     <p class="card-text">Toutes nos garanties commerciales couvrent la panne et proposent des services supplémentaires.</p>
@@ -418,8 +418,7 @@
             <div class="col-md-4">
             <div class="card mb-2">
                 <img class="card-img-top"
-                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
-                alt="Card image cap">
+                src="assets/raspberry2.jpg" alt="raspberry">
                 <div class="card-body">
                     <h4 class="card-title">Frais de retour</h4>
                     <p class="card-text">Pour tout colis de poids éligible au départ de Belgique, la prise en charge sera effectuée par un bon postal prépayé.</p>
@@ -430,8 +429,7 @@
             <div class="col-md-4">
             <div class="card mb-2">
                 <img class="card-img-top"
-                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
-                alt="Card image cap">
+                src="assets/raspberry3.jpg" alt="raspberry">
                 <div class="card-body">
                     <h4 class="card-title">Délai de rétractation</h4>
                     <p class="card-text">Réservé aux clients particuliers, à compter de la date de livraison de la commande.</p>
@@ -448,7 +446,7 @@
             <div class="col-md-4">
             <div class="card mb-2">
                 <img class="card-img-top"
-                src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+                src="assets/raspberry4.jpg" alt="raspberry">
                 <div class="card-body">
                     <h4 class="card-title">Traitement de commande</h4>
                     <p class="card-text">Généralement, si vous passez et vous réglez votre commande avant 11H, elle sera expédiée le jour même.</p>
@@ -459,7 +457,7 @@
             <div class="col-md-4">
             <div class="card mb-2">
                 <img class="card-img-top"
-                src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
+                src="assets/raspberry5.jpg" alt="raspberry">
                 <div class="card-body">
                     <h4 class="card-title">Echange en cas de panne</h4>
                     <h4 class="card-title"></h4>
@@ -471,7 +469,7 @@
             <div class="col-md-4">
             <div class="card mb-2">
                 <img class="card-img-top"
-                src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap">
+                src="assets/raspberry6.jpg" alt="raspberry">
                 <div class="card-body">
                     <h4 class="card-title">Satisfait ou remboursé</h4>
                     <p class="card-text">Nous proposons à nos client une garantie 15 jours satisfait ou remboursé pour tout nos produits.</p>
