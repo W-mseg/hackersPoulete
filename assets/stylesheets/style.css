@@ -216,13 +216,13 @@ header, main, footer {
   color: #15c5bd;
 }
 
-#services #firstSlide .card-deck, #services #secondSlide .card-deck {
+#services .card-deck {
   padding-bottom: 30px;
   padding-left: 50px;
   padding-right: 50px;
 }
 
-#services #firstSlide .card-deck .card, #services #secondSlide .card-deck .card {
+#services .card-deck .card {
   background-color: #303030;
   color: #FFF;
 }

@@ -1,16 +1,16 @@
 <?php require ('functions.php');?>
 <!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-        <meta name="viewport"
-            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HackersPoulette</title>
-    <link rel="stylesheet" href="assets/stylesheets/style.css" type="text/css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-</head>
-<body>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+            <meta name="viewport"
+                content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>HackersPoulette</title>
+        <link rel="stylesheet" href="assets/stylesheets/style.css" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body>
 
     <header>
 
@@ -390,17 +390,15 @@
         <h2 class="text-center pb-3 pt-3 text-black">Services</h2>
         <div id="carousel" class="carousel slide carousel-multi-item" data-ride="carousel">
 
-        <!--Controls-->
         <div class="controls-top text-center">
             <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
             <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right"></i></a>
         </div>
 
-        <!--Slides-->
         <div class="carousel-inner" role="listbox">
 
         <!--First slide-->
-        <div id="firstSlide" class="carousel-item active">
+        <div class="carousel-item active">
 
             <div class="card-deck">
             <div class="col-md-4">
@@ -446,7 +444,7 @@
 </div>
 
         <!--Second slide-->
-        <div id="secondSlide" class="carousel-item">
+        <div class="carousel-item">
             <div class="card-deck">
             <div class="col-md-4">
             <div class="card mb-2">
@@ -508,9 +506,9 @@
                     </section>
                     <section class="col-12 col-lg-4">
                         <div class="box">
-                            <i class="fab fa-facebook-f"> </i>
-                            <h3>Lorem Ipsum</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae ligula a nunc porta fringilla. Vestibulum nibh nulla, bibendum nec scelerisque in, tristique vel ipsum.</p>
+                            <i class="fas fa-euro-sign"> </i>
+                            <h3>Moyens de paiement</h3>
+                            <p>Pour régler une commande, vous disposez de tous les moyens de paiement suivants : cartes bancaires (VISA, MAESTRO, MASTERCARD), Paypal, chèques et virements.</p>
                         </div>
                     </section>
                 </div>
