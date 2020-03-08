@@ -92,7 +92,7 @@ $dropDown       : false;
         filter: brightness(50%);
         }
 
-    @media(min-width:350px){
+    @media(min-width:450px){
     margin-bottom: 0px;
     height: 500px;
     color: $blue;
@@ -100,7 +100,7 @@ $dropDown       : false;
     background-position: center;
     }
 
-    @media(max-width: 350px){
+    @media(max-width: 450px){
       margin-bottom: 0px;
       height: 800px;
       color: $blue;
@@ -135,22 +135,20 @@ $dropDown       : false;
   }
 }
 
-.card-deck{
-  padding-bottom: 30px;
-  padding-left: 50px;
-  padding-right: 50px;
-
-  .card{
-    &:hover{
-    border: 1px solid $black;
-    cursor: pointer;
-    }
-  }
-
-}
-
 #produits{
   background-color: $blue;
+  .card-deck{
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  
+    .card{
+      &:hover{
+      border: 1px solid $black;
+      cursor: pointer;
+      }
+    }
+  }
 }
 
 .video{
@@ -199,20 +197,43 @@ $dropDown       : false;
   display: none;
 }
 
+/*Services*/
+#services{
+  background-color: $white;
+
+  .controls-top{
+    padding-bottom: 30px;
+
+    .btn-floating{
+      color: $blue;
+    }
+  }
+
+  #firstSlide, #secondSlide{
+
+    .card-deck{
+      padding-bottom: 30px;
+      padding-left: 50px;
+      padding-right: 50px;
+
+      .card{
+        background-color: $black;
+        color: $white;
+      }
+    }
+  }
+}
+
 /*Informations*/
 
 #informations {
   padding: 5em 0 3em 0;
-  background-color: $white;
+  background-color: $black;
 
 	.box{
-		text-align: center;
+    text-align: center;
+    color: $blue;
 	}
-
-		.box.post.image {
-			width: 30%;
-			margin: 0;
-    }   
 }
 
 /*Contact*/

@@ -12,7 +12,6 @@
 </head>
 <body>
 
-    <!-- Header -->
     <header>
 
     <!--Navbar -->
@@ -33,14 +32,14 @@
             <a class="nav-link" href="#produits">Produits</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#services">Services</a>
         </li>
         <li class="nav-item dropdown">
             <a role="button" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">Informations            </a>
             <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-            <a class="dropdown-item" href="#informations">Qui sommes-nous ?</a>
-            <a class="dropdown-item" href="#informations">Another action</a>
+            <a class="dropdown-item" href="#quisommesnous">Qui sommes-nous ?</a>
+            <a class="dropdown-item" href="#engagements">Nos engagements</a>
             <a class="dropdown-item" href="#informations">Something else here</a>
             </div>
         </li>
@@ -81,11 +80,11 @@
         
         <section id="produits" class="pb-4 mt-0">
 
-        <h2 class="text-center pb-3 pt-3 text-white">Nos produits</h2>
+        <h2 class="text-center pb-3 pt-3 text-white">Produits</h2>
         
         <!-- Cards -->
         <div class="card-deck mr-0">
-            <div class="card col-12 col-md-6 col-lg-4" data-toggle="modal" data-target="#Modal1">
+            <div class="card col-12 col-lg-4" data-toggle="modal" data-target="#Modal1">
                 <img class="card-img-top" src=<?= $decodearray[0]['image'];?> alt= "raspberry">
                 <div class="card-body">
                 <h5 class="card-title"><?= $decodearray[0]['name'];?></h5>
@@ -95,7 +94,7 @@
                 <small class="text-muted"><?= $decodearray[0]['prix'];?></small>
             </div>
             </div>
-            <div class="card col-12 col-md-6 col-lg-4" data-toggle="modal" data-target="#Modal2">
+            <div class="card col-12 col-lg-4" data-toggle="modal" data-target="#Modal2">
                 <img class="card-img-top" src=<?= $decodearray[1]['image'];?> alt= "raspberry">
                 <div class="card-body">
                 <h5 class="card-title"><?= $decodearray[1]['name'];?></h5>
@@ -106,7 +105,7 @@
             </div>
             </div>
 
-            <div class="card col-12 col-md-6 col-lg-4" data-toggle="modal" data-target="#Modal3">
+            <div class="card col-12 col-lg-4" data-toggle="modal" data-target="#Modal3">
                 <img class="card-img-top" src=<?= $decodearray[2]['image'];?> alt="raspberry">
                 <div class="card-body">
                 <h5 class="card-title"><?= $decodearray[2]['name'];?></h5>
@@ -121,7 +120,7 @@
     <div id="more">
 
         <div class="card-deck mr-0">
-        <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal4">
+        <div class="card col-12 col-lg-4" data-toggle="modal" data-target="#Modal4">
             <img class="card-img-top" src=<?= $decodearray[3]['image'];?> alt= "raspberry">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[3]['name'];?></h5>
@@ -131,7 +130,7 @@
             <small class="text-muted"><?= $decodearray[3]['prix'];?></small>
         </div>
         </div>
-        <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal5">
+        <div class="card col-12 col-lg-4" data-toggle="modal" data-target="#Modal5">
             <img class="card-img-top" src=<?= $decodearray[4]['image'];?> alt= "raspberry">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[4]['name'];?></h5>
@@ -142,7 +141,7 @@
         </div>
         </div>
 
-        <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal6">
+        <div class="card col-12 col-lg-4" data-toggle="modal" data-target="#Modal6">
             <img class="card-img-top" src=<?= $decodearray[5]['image'];?> alt= "raspberry">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[5]['name'];?></h5>
@@ -156,7 +155,7 @@
 
 
 <div class="card-deck mr-0">
-        <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal7">
+        <div class="card col-12 col-lg-4" data-toggle="modal" data-target="#Modal7">
             <img class="card-img-top" src=<?= $decodearray[6]['image'];?> alt= "raspberry">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[6]['name'];?></h5>
@@ -166,7 +165,7 @@
             <small class="text-muted"><?= $decodearray[6]['prix'];?></small>
         </div>
         </div>
-        <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal8">
+        <div class="card col-12 col-lg-4" data-toggle="modal" data-target="#Modal8">
             <img class="card-img-top" src=<?= $decodearray[7]['image'];?> alt= "raspberry">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[7]['name'];?></h5>
@@ -177,7 +176,7 @@
         </div>
         </div>
 
-        <div class="card col-12 col-md-8 col-lg-4" data-toggle="modal" data-target="#Modal9">
+        <div class="card col-12 col-lg-4" data-toggle="modal" data-target="#Modal9">
             <img class="card-img-top" src=<?= $decodearray[8]['image'];?> alt= "raspberry">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[8]['name'];?></h5>
@@ -386,21 +385,126 @@
             </div>
         </div>
 
+        <!-- Services-->
+        <section id="services" class="pb-4 mt-0">
+        <h2 class="text-center pb-3 pt-3 text-black">Services</h2>
+        <div id="carousel" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+        <!--Controls-->
+        <div class="controls-top text-center">
+            <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+            <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+        </div>
+
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+
+        <!--First slide-->
+        <div id="firstSlide" class="carousel-item active">
+
+            <div class="card-deck">
+            <div class="col-md-4">
+            <div class="card mb-2">
+                <img class="card-img-top"
+                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                alt="Card image cap">
+                <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="col-md-4">
+            <div class="card mb-2">
+                <img class="card-img-top"
+                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                alt="Card image cap">
+                <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="col-md-4">
+            <div class="card mb-2">
+                <img class="card-img-top"
+                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
+                alt="Card image cap">
+                <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                </div>
+            </div>
+            </div>
+
+        </div>
+</div>
+
+        <!--Second slide-->
+        <div id="secondSlide" class="carousel-item">
+            <div class="card-deck">
+            <div class="col-md-4">
+            <div class="card mb-2">
+                <img class="card-img-top"
+                src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+                <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="col-md-4">
+            <div class="card mb-2">
+                <img class="card-img-top"
+                src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
+                <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="col-md-4">
+            <div class="card mb-2">
+                <img class="card-img-top"
+                src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap">
+                <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                </div>
+            </div>
+            </div>
+
+            </div>
+            </div>
+            </div>
+        </div>
+        </section>
+
         <!--Informations-->
         <section id="informations">
             <div class="container">
                 <div class="row">
-                    <section class="col-12 col-lg-4 ">
+                    <section id="quisommesnous" class="col-12 col-lg-4 ">
                         <div class="box">
-                            <i class="fab fa-facebook-f"> </i>
-                            <h3>Lorem Ipsum</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae ligula a nunc porta fringilla. Vestibulum nibh nulla, bibendum nec scelerisque in, tristique vel ipsum.</p></div>
+                            <i class="fas fa-user"> </i>
+                            <h3>Qui sommes-nous ?</h3>
+                            <p>Basé en Belgique à Charleroi, l'entreprise Hackers Poulette a été créée en 2020 par Yassine BOUKAMIR et Marco SEGRETARIO, elle est devenue très vite un acteur majeur dans le commerce de solutions électroniques.</p></div>
                     </section>
-                    <section class="col-12 col-lg-4">
+                    <section id="engagements" class="col-12 col-lg-4">
                         <div class="box">
-                            <i class="fab fa-facebook-f"> </i>
-                            <h3>Lorem Ipsum</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae ligula a nunc porta fringilla. Vestibulum nibh nulla, bibendum nec scelerisque in, tristique vel ipsum.</p></div>
+                            <i class="fas fa-star"></i>
+                            <h3>Nos engagements</h3>
+                            <p>Chez nous, le client est important, et nous nous efforçons de toujours vous satisfaire. Nous souhaitons fournir au meilleur prix possible les différents articles présents sur la boutique.</p></div>
                     </section>
                     <section class="col-12 col-lg-4">
                         <div class="box">
@@ -414,10 +518,10 @@
         </section>
         
         <!--Contact-->
-        <section id="contact">
-            <h2 style="text-align: center">Contact</h2>
+        <section id="contact" class="pt-3">
+            <h2 class="text-white text-center">Contact</h2>
         <?php require ('formulaire.php'); ?>
-            <pre>
+            <pre class="mb-0 pb-3 text-center">
                 <?php
                 print_r($GLOBALS['postname']." ".$GLOBALS['postlastname']." ".$GLOBALS['postemail']." ".$GLOBALS['postgender']." ".$GLOBALS['postsubject']);
                 echo " ".actionform()
@@ -427,7 +531,6 @@
 
     </main>
 
-    <!-- Footer -->
     <footer class="page-footer font-small stylish-color-dark pt-4">
 
     <div class="container text-center text-md-left">
@@ -454,7 +557,7 @@
                 <a href="#produits">Produits</a>
             </li>
             <li>
-                <a href="#">Services</a>
+                <a href="#services">Services</a>
             </li>
             </ul>
 
@@ -469,10 +572,10 @@
 
             <ul class="list-unstyled">
             <li>
-                <a href="#informations">Qui sommes-nous ?</a>
+                <a href="#quisommesnous">Qui sommes-nous ?</a>
             </li>
             <li>
-                <a href="#informations">Link 2</a>
+                <a href="#engagements">Nos engagements</a>
             </li>
             <li>
                 <a href="#informations">Link 3</a>
@@ -532,7 +635,7 @@
         <a href="#"> Hackers-Poulette.com</a>
     </div>
 
-    <!-- Flèche -->
+    <!-- Flèche UP -->
         <a href="#" id="arrowup" style="position: fixed;bottom: 0px;right:10px;color: white;font-size: 50px"><i class="fas fa-arrow-up"></i></a>
     </footer>
 

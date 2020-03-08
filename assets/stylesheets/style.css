@@ -96,7 +96,7 @@ header, main, footer {
           filter: brightness(50%);
 }
 
-@media (min-width: 350px) {
+@media (min-width: 450px) {
   .jumbotron {
     margin-bottom: 0px;
     height: 500px;
@@ -106,7 +106,7 @@ header, main, footer {
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 450px) {
   .jumbotron {
     margin-bottom: 0px;
     height: 800px;
@@ -143,19 +143,19 @@ header, main, footer {
   float: right;
 }
 
-.card-deck {
+#produits {
+  background-color: #15c5bd;
+}
+
+#produits .card-deck {
   padding-bottom: 30px;
   padding-left: 50px;
   padding-right: 50px;
 }
 
-.card-deck .card:hover {
+#produits .card-deck .card:hover {
   border: 1px solid #303030;
   cursor: pointer;
-}
-
-#produits {
-  background-color: #15c5bd;
 }
 
 .video {
@@ -203,19 +203,39 @@ header, main, footer {
   display: none;
 }
 
+/*Services*/
+#services {
+  background-color: #FFF;
+}
+
+#services .controls-top {
+  padding-bottom: 30px;
+}
+
+#services .controls-top .btn-floating {
+  color: #15c5bd;
+}
+
+#services #firstSlide .card-deck, #services #secondSlide .card-deck {
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#services #firstSlide .card-deck .card, #services #secondSlide .card-deck .card {
+  background-color: #303030;
+  color: #FFF;
+}
+
 /*Informations*/
 #informations {
   padding: 5em 0 3em 0;
-  background-color: #FFF;
+  background-color: #303030;
 }
 
 #informations .box {
   text-align: center;
-}
-
-#informations .box.post.image {
-  width: 30%;
-  margin: 0;
+  color: #15c5bd;
 }
 
 /*Contact*/
