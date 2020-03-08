@@ -147,10 +147,12 @@ header, main, footer {
   background-color: #15c5bd;
 }
 
-#produits .card-deck {
-  padding-bottom: 30px;
-  padding-left: 50px;
-  padding-right: 50px;
+@media (min-width: 400px) {
+  #produits .card-deck {
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 
 #produits .card-deck .card:hover {
@@ -216,10 +218,12 @@ header, main, footer {
   color: #15c5bd;
 }
 
-#services .card-deck {
-  padding-bottom: 30px;
-  padding-left: 50px;
-  padding-right: 50px;
+@media (min-width: 400px) {
+  #services .card-deck {
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 
 #services .card-deck .card {
@@ -236,6 +240,10 @@ header, main, footer {
 #informations .box {
   text-align: center;
   color: #15c5bd;
+}
+
+#informations .box i {
+  margin-bottom: 30px;
 }
 
 /*Contact*/

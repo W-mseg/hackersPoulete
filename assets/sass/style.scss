@@ -138,10 +138,11 @@ $dropDown       : false;
 #produits{
   background-color: $blue;
   .card-deck{
-    padding-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-  
+    @media(min-width: 400px){
+      padding-bottom: 30px;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
     .card{
       &:hover{
       border: 1px solid $black;
@@ -209,11 +210,12 @@ $dropDown       : false;
     }
   }
 
-    .card-deck{
-      padding-bottom: 30px;
-      padding-left: 50px;
-      padding-right: 50px;
-
+      .card-deck{
+        @media(min-width: 400px){
+          padding-bottom: 30px;
+          padding-left: 50px;
+          padding-right: 50px;
+        }
       .card{
         background-color: $black;
         color: $white;
@@ -230,6 +232,10 @@ $dropDown       : false;
 	.box{
     text-align: center;
     color: $blue;
+
+    i{
+      margin-bottom: 30px;
+    }
 	}
 }
 
