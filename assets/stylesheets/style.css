@@ -228,16 +228,16 @@ header, main, footer {
 
 /*Informations*/
 #informations {
-  padding: 5em 0 3em 0;
+  padding-bottom: 3em;
   background-color: #303030;
 }
 
-#informations .box {
+#informations .box, #informations h2 {
   text-align: center;
   color: #15c5bd;
 }
 
-#informations .box i {
+#informations .box i, #informations h2 i {
   margin-bottom: 30px;
 }
 

@@ -72,7 +72,7 @@
         <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Hackers Poulette</strong></h2>
         <p class="mx-5 mb-3"><b>Basé en Belgique à Charleroi, l'entreprise Hackers Poulette a été créée en 2020 par Yassine BOUKAMIR et Marco SEGRETARIO, elle est devenue très vite un acteur majeur dans le commerce de solutions électroniques.</b></p>
         <p class="mx-5 mb-5">Découvrez notre gamme d'ordinateurs miniatures !</p>
-        <button class="btn btn-outline-white btn-md"><a href="#informations"><b>Plus d'infos</b></a></button>
+        <button class="btn btn-outline-white btn-md" onclick="window.location.href = '#informations';"><b>Plus d'infos</b></button>
     </div>
     </div>
     </div>
@@ -83,12 +83,12 @@
         
     <section id="produits" class="pb-4 mt-0">
 
-        <h2 class="text-center pb-3 pt-3 text-white">Produits</h2>
+        <h2 class="text-center pb-3 pt-3 text-white font-weight-bold">Produits</h2>
         
         <!-- Cards -->
         <div class="card-deck mr-0">
         <div class="card col-12 col-lg-4" data-toggle="modal" data-target="#Modal1">
-            <img class="card-img-top" src=<?= $decodearray[0]['image'];?> alt= "raspberry">
+            <img class="card-img-top" src=<?= $decodearray[0]['image'];?> alt="raspberry">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[0]['name'];?></h5>
             <p class="card-text"><?= $decodearray[0]['description'];?></p>
@@ -98,7 +98,7 @@
         </div>
         </div>
         <div class="card col-12 col-lg-4" data-toggle="modal" data-target="#Modal2">
-            <img class="card-img-top" src=<?= $decodearray[1]['image'];?> alt= "raspberry">
+            <img class="card-img-top" src=<?= $decodearray[1]['image'];?> alt="raspberry">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[1]['name'];?></h5>
             <p class="card-text"><?= $decodearray[1]['description'];?></p>
@@ -124,7 +124,7 @@
 
         <div class="card-deck mr-0">
         <div class="card col-12 col-lg-4" data-toggle="modal" data-target="#Modal4">
-            <img class="card-img-top" src=<?= $decodearray[3]['image'];?> alt= "raspberry">
+            <img class="card-img-top" src=<?= $decodearray[3]['image'];?> alt="raspberry">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[3]['name'];?></h5>
             <p class="card-text"><?= $decodearray[3]['description'];?></p>
@@ -134,7 +134,7 @@
         </div>
         </div>
         <div class="card col-12 col-lg-4" data-toggle="modal" data-target="#Modal5">
-            <img class="card-img-top" src=<?= $decodearray[4]['image'];?> alt= "raspberry">
+            <img class="card-img-top" src=<?= $decodearray[4]['image'];?> alt="raspberry">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[4]['name'];?></h5>
             <p class="card-text"><?= $decodearray[4]['description'];?></p>
@@ -145,7 +145,7 @@
         </div>
 
         <div class="card col-12 col-lg-4" data-toggle="modal" data-target="#Modal6">
-            <img class="card-img-top" src=<?= $decodearray[5]['image'];?> alt= "raspberry">
+            <img class="card-img-top" src=<?= $decodearray[5]['image'];?> alt="raspberry">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[5]['name'];?></h5>
             <p class="card-text"><?= $decodearray[5]['description'];?></p>
@@ -159,7 +159,7 @@
 
         <div class="card-deck mr-0">
         <div class="card col-12 col-lg-4" data-toggle="modal" data-target="#Modal7">
-            <img class="card-img-top" src=<?= $decodearray[6]['image'];?> alt= "raspberry">
+            <img class="card-img-top" src=<?= $decodearray[6]['image'];?> alt="raspberry">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[6]['name'];?></h5>
             <p class="card-text"><?= $decodearray[6]['description'];?></p>
@@ -169,7 +169,7 @@
         </div>
         </div>
         <div class="card col-12 col-lg-4" data-toggle="modal" data-target="#Modal8">
-            <img class="card-img-top" src=<?= $decodearray[7]['image'];?> alt= "raspberry">
+            <img class="card-img-top" src=<?= $decodearray[7]['image'];?> alt="raspberry">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[7]['name'];?></h5>
             <p class="card-text"><?= $decodearray[7]['description'];?></p>
@@ -180,7 +180,7 @@
         </div>
 
         <div class="card col-12 col-lg-4" data-toggle="modal" data-target="#Modal9">
-            <img class="card-img-top" src=<?= $decodearray[8]['image'];?> alt= "raspberry">
+            <img class="card-img-top" src=<?= $decodearray[8]['image'];?> alt="raspberry">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[8]['name'];?></h5>
             <p class="card-text"><?= $decodearray[8]['description'];?></p>
@@ -390,7 +390,7 @@
 
         <!-- Services-->
         <section id="services" class="pb-4 mt-0">
-        <h2 class="text-center pb-3 pt-3 text-black">Services</h2>
+        <h2 class="text-center pb-3 pt-3 text-black font-weight-bold">Services</h2>
         <div id="carousel" class="carousel slide carousel-multi-item" data-ride="carousel">
 
         <div class="controls-top text-center">
@@ -460,7 +460,6 @@
                 src="assets/raspberry5.jpg" alt="raspberry">
                 <div class="card-body">
                     <h4 class="card-title">Echange en cas de panne</h4>
-                    <h4 class="card-title"></h4>
                     <p class="card-text">Pour toute panne signalée 7 jours après la livraison d'un produit, nous procédons à un échange immédiat.</p>
                 </div>
             </div>
@@ -485,6 +484,7 @@
 
         <!--Informations-->
         <section id="informations">
+        <h2 class="text-center font-weight-bold pb-5 pt-4">Informations</h2>
             <div class="container">
                 <div class="row">
                     <section id="quisommesnous" class="col-12 col-lg-4 ">
@@ -512,7 +512,7 @@
         
         <!--Contact-->
         <section id="contact" class="pt-3">
-            <h2 class="text-white text-center">Contact</h2>
+            <h2 class="text-white text-center font-weight-bold">Contact</h2>
         <?php require ('formulaire.php'); ?>
             <pre class="mb-0 pb-3 text-center">
                 <?php
