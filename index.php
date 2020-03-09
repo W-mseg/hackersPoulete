@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="Description" content="Site web de Hackers Poulette, une société qui vend des kits et accessoires pour Raspberry Pi à monter soi-même."/>
         <title>HackersPoulette</title>
         <link rel="stylesheet" href="assets/stylesheets/style.css" type="text/css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -88,7 +89,7 @@
         <!-- Cards -->
         <div class="card-deck mr-0">
         <div class="card col-12 col-lg-4" data-toggle="modal" data-target="#Modal1">
-            <img class="card-img-top" src=<?= $decodearray[0]['image'];?> alt="raspberry">
+            <img class="card-img-top" src=<?= $decodearray[0]['image'];?> alt="raspberry" title="Raspberry-Pi-4-Model-B">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[0]['name'];?></h5>
             <p class="card-text"><?= $decodearray[0]['description'];?></p>
@@ -98,7 +99,7 @@
         </div>
         </div>
         <div class="card col-12 col-lg-4" data-toggle="modal" data-target="#Modal2">
-            <img class="card-img-top" src=<?= $decodearray[1]['image'];?> alt="raspberry">
+            <img class="card-img-top" src=<?= $decodearray[1]['image'];?> alt="raspberry" title="Raspberry-Pi-3-Model-A+">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[1]['name'];?></h5>
             <p class="card-text"><?= $decodearray[1]['description'];?></p>
@@ -109,7 +110,7 @@
         </div>
 
         <div class="card col-12 col-lg-4" data-toggle="modal" data-target="#Modal3">
-            <img class="card-img-top" src=<?= $decodearray[2]['image'];?> alt="raspberry">
+            <img class="card-img-top" src=<?= $decodearray[2]['image'];?> alt="raspberry" title="Raspberry-Pi-3-Model-B+">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[2]['name'];?></h5>
             <p class="card-text"><?= $decodearray[2]['description'];?></p>
@@ -124,7 +125,7 @@
 
         <div class="card-deck mr-0">
         <div class="card col-12 col-lg-4" data-toggle="modal" data-target="#Modal4">
-            <img class="card-img-top" src=<?= $decodearray[3]['image'];?> alt="raspberry">
+            <img class="card-img-top" src=<?= $decodearray[3]['image'];?> alt="raspberry" title="Raspberry-Pi-3-Model-B">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[3]['name'];?></h5>
             <p class="card-text"><?= $decodearray[3]['description'];?></p>
@@ -134,7 +135,7 @@
         </div>
         </div>
         <div class="card col-12 col-lg-4" data-toggle="modal" data-target="#Modal5">
-            <img class="card-img-top" src=<?= $decodearray[4]['image'];?> alt="raspberry">
+            <img class="card-img-top" src=<?= $decodearray[4]['image'];?> alt="raspberry" title="Raspberry-Pi-2-Model-B">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[4]['name'];?></h5>
             <p class="card-text"><?= $decodearray[4]['description'];?></p>
@@ -145,7 +146,7 @@
         </div>
 
         <div class="card col-12 col-lg-4" data-toggle="modal" data-target="#Modal6">
-            <img class="card-img-top" src=<?= $decodearray[5]['image'];?> alt="raspberry">
+            <img class="card-img-top" src=<?= $decodearray[5]['image'];?> alt="raspberry" title="Raspberry-Pi-1-Model-B+">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[5]['name'];?></h5>
             <p class="card-text"><?= $decodearray[5]['description'];?></p>
@@ -159,7 +160,7 @@
 
         <div class="card-deck mr-0">
         <div class="card col-12 col-lg-4" data-toggle="modal" data-target="#Modal7">
-            <img class="card-img-top" src=<?= $decodearray[6]['image'];?> alt="raspberry">
+            <img class="card-img-top" src=<?= $decodearray[6]['image'];?> alt="raspberry" title="Raspberry-Pi-1-Model-A+">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[6]['name'];?></h5>
             <p class="card-text"><?= $decodearray[6]['description'];?></p>
@@ -169,7 +170,7 @@
         </div>
         </div>
         <div class="card col-12 col-lg-4" data-toggle="modal" data-target="#Modal8">
-            <img class="card-img-top" src=<?= $decodearray[7]['image'];?> alt="raspberry">
+            <img class="card-img-top" src=<?= $decodearray[7]['image'];?> alt="raspberry" title="Raspberry-Pi-Zero-W">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[7]['name'];?></h5>
             <p class="card-text"><?= $decodearray[7]['description'];?></p>
@@ -180,7 +181,7 @@
         </div>
 
         <div class="card col-12 col-lg-4" data-toggle="modal" data-target="#Modal9">
-            <img class="card-img-top" src=<?= $decodearray[8]['image'];?> alt="raspberry">
+            <img class="card-img-top" src=<?= $decodearray[8]['image'];?> alt="raspberry" title="Raspberry-Pi-Zero">
             <div class="card-body">
             <h5 class="card-title"><?= $decodearray[8]['name'];?></h5>
             <p class="card-text"><?= $decodearray[8]['description'];?></p>
@@ -391,11 +392,12 @@
         <!-- Services-->
         <section id="services" class="pb-4 mt-0">
         <h2 class="text-center pb-3 pt-3 text-black font-weight-bold">Services</h2>
-        <div id="carousel" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+        <div id="carousel-multi" class="carousel slide carousel-multi-item" data-ride="carousel">
 
         <div class="controls-top text-center">
-            <a class="btn-floating" href="" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
-            <a class="btn-floating" href="" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+            <a class="btn-floating" href="#carousel-multi" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+            <a class="btn-floating" href="#carousel-multi" data-slide="next"><i class="fas fa-chevron-right"></i></a>
         </div>
 
         <div class="carousel-inner" role="listbox">
@@ -407,7 +409,7 @@
             <div class="col-md-4">
             <div class="card mb-2">
                 <img class="card-img-top"
-                src="assets/raspberry1.jpg" alt="raspberry">
+                src="assets/raspberry1.jpg" alt="raspberry" title="Durée de la garantie">
                 <div class="card-body">
                     <h4 class="card-title">Garantie</h4>
                     <p class="card-text">Toutes nos garanties commerciales couvrent la panne et proposent des services supplémentaires.</p>
@@ -418,7 +420,7 @@
             <div class="col-md-4">
             <div class="card mb-2">
                 <img class="card-img-top"
-                src="assets/raspberry2.jpg" alt="raspberry">
+                src="assets/raspberry2.jpg" alt="raspberry" title="Prise en charge des frais de retour en garantie">
                 <div class="card-body">
                     <h4 class="card-title">Frais de retour</h4>
                     <p class="card-text">Pour tout colis de poids éligible au départ de Belgique, la prise en charge sera effectuée par un bon postal prépayé.</p>
@@ -429,7 +431,7 @@
             <div class="col-md-4">
             <div class="card mb-2">
                 <img class="card-img-top"
-                src="assets/raspberry3.jpg" alt="raspberry">
+                src="assets/raspberry3.jpg" alt="raspberry" title="Délai de rétractation">
                 <div class="card-body">
                     <h4 class="card-title">Délai de rétractation</h4>
                     <p class="card-text">Réservé aux clients particuliers, à compter de la date de livraison de la commande.</p>
@@ -446,7 +448,7 @@
             <div class="col-md-4">
             <div class="card mb-2">
                 <img class="card-img-top"
-                src="assets/raspberry4.jpg" alt="raspberry">
+                src="assets/raspberry4.jpg" alt="raspberry" title="Traitement de commande">
                 <div class="card-body">
                     <h4 class="card-title">Traitement de commande</h4>
                     <p class="card-text">Généralement, si vous passez et vous réglez votre commande avant 11H, elle sera expédiée le jour même.</p>
@@ -457,7 +459,7 @@
             <div class="col-md-4">
             <div class="card mb-2">
                 <img class="card-img-top"
-                src="assets/raspberry5.jpg" alt="raspberry">
+                src="assets/raspberry5.jpg" alt="raspberry" title="Echange immédiat en cas de panne au déballage">
                 <div class="card-body">
                     <h4 class="card-title">Echange en cas de panne</h4>
                     <p class="card-text">Pour toute panne signalée 7 jours après la livraison d'un produit, nous procédons à un échange immédiat.</p>
@@ -468,7 +470,7 @@
             <div class="col-md-4">
             <div class="card mb-2">
                 <img class="card-img-top"
-                src="assets/raspberry6.jpg" alt="raspberry">
+                src="assets/raspberry6.jpg" alt="raspberry" title="La garantie satisfait ou remboursé pendant 15 jours">
                 <div class="card-body">
                     <h4 class="card-title">Satisfait ou remboursé</h4>
                     <p class="card-text">Nous proposons à nos client une garantie 15 jours satisfait ou remboursé pour tout nos produits.</p>

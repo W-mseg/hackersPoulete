@@ -72,22 +72,8 @@ $dropDown       : false;
       color: $colHighlight; }}}
 
 /*Jumbotron*/
-@media(min-width:500px){
-  .fond {
-    background-image: url("../poulet.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    position: absolute;
-    width: 100%;
-    height: 300px;
-    top:3em;
-    left:0;
-    z-index: 1 !important;
-  }
-}
 
   .jumbotron {
-
     @media(min-width:450px){
     margin-bottom: 0px;
     height: 500px;
