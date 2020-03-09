@@ -71,7 +71,7 @@
     <div class="text-white text-center py-5 px-4">
     <div>
         <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Hackers Poulette</strong></h2>
-        <p class="mx-5 mb-3"><b>Basé en Belgique à Charleroi, l'entreprise Hackers Poulette a été créée en 2020 par Yassine BOUKAMIR et Marco SEGRETARIO, elle est devenue très vite un acteur majeur dans le commerce de solutions électroniques.</b></p>
+        <p class="mx-5 mb-3"><b>Basé en Belgique à Charleroi, l'entreprise Hackers Poulette a été créée en 2020 par Yassine BOUKAMIR et Marco SEGRETARIO, elle est devenue très vite un acteur majeur dans le commerce de Raspberry Pi.</b></p>
         <p class="mx-5 mb-5">Découvrez notre gamme d'ordinateurs miniatures !</p>
         <button class="btn btn-outline-white btn-md" onclick="window.location.href = '#informations';"><b>Plus d'infos</b></button>
     </div>
